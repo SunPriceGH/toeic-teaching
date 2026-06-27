@@ -101,6 +101,37 @@ body{overflow-x:hidden}.lesson-wrapper{width:100%;min-height:100vh;position:rela
   display:none!important;
 }
 
+
+/* ===== Practice annotation: box-only, top-left stacked ===== */
+.quiz-slide .annotation-overlay .annotation-line,
+.quiz-slide .annotation-overlay .annotation-dot{
+  display:none!important;
+}
+.quiz-slide .annotation-overlay .annotation-note-box{
+  fill:rgba(255,255,255,.96)!important;
+  stroke:#111827!important;
+  stroke-width:2.2!important;
+  rx:14!important;
+  ry:14!important;
+}
+.quiz-slide .annotation-overlay .annotation-note-title{
+  font-size:18px!important;
+  font-weight:1000!important;
+  fill:#0f172a!important;
+}
+.quiz-slide .annotation-overlay .annotation-note-value{
+  font-size:20px!important;
+  font-weight:1000!important;
+  fill:#1d4ed8!important;
+}
+.quiz-slide .annotation-overlay .annotation-step{
+  transform-box:fill-box;
+  transform-origin:center;
+}
+
+
+/* Practice no translation quick box */
+.quiz-slide .translation-box{display:none!important}
 </style>
 </head>
 <body>
@@ -169,11 +200,11 @@ const quizData = [
   {type:'one-person',scene:'p4',image:'image/library_shelf.png',photoId:'photo4',caption:'A woman is reaching for a book on a shelf.',answer:'D',options:[['A','A woman is pushing a cart through a hallway.','Một phụ nữ đang đẩy xe đẩy qua hành lang.'],['B','A woman is sitting at a reference desk.','Một phụ nữ đang ngồi ở quầy tra cứu.'],['C','A woman is closing a file cabinet.','Một phụ nữ đang đóng tủ hồ sơ.'],['D','A woman is reaching for a book on a shelf.','Một phụ nữ đang với lấy một quyển sách trên kệ.']],explain:'Người phụ nữ đứng giữa hai dãy kệ sách và đang vươn tay lấy một quyển sách.'},
   {type:'one-person',scene:'p5',image:'image/bench_phone.png',photoId:'photo5',caption:'A woman is talking on a phone while sitting on a bench.',answer:'B',options:[['A','A woman is jogging along a street.','Một phụ nữ đang chạy bộ dọc theo con đường.'],['B','A woman is talking on a phone while sitting on a bench.','Một phụ nữ đang nói chuyện điện thoại khi ngồi trên ghế băng.'],['C','A woman is loading groceries into a car.','Một phụ nữ đang chất đồ tạp hóa vào xe hơi.'],['D','A woman is feeding some birds in a park.','Một phụ nữ đang cho chim ăn trong công viên.']],explain:'Người phụ nữ đang ngồi trên ghế băng ngoài trời và cầm điện thoại bên tai.'},
 
-  {type:'many-people',scene:'m1',caption:'Several people are sitting around a conference table.',answer:'B',options:[['A','Several people are climbing stairs.','Nhiều người đang leo cầu thang.'],['B','Several people are sitting around a table.','Nhiều người đang ngồi quanh bàn.'],['C','Several people are loading a truck.','Nhiều người đang chất hàng lên xe tải.'],['D','Several people are planting trees.','Nhiều người đang trồng cây.']],explain:'Nhóm người ngồi quanh bàn họp.'},
-  {type:'many-people',scene:'m2',caption:'Two people are looking at a tablet.',answer:'D',options:[['A','Two people are washing windows.','Hai người đang lau cửa sổ.'],['B','Two people are carrying umbrellas.','Hai người đang cầm ô.'],['C','Two people are stacking boxes.','Hai người đang xếp hộp.'],['D','Two people are looking at a tablet.','Hai người đang nhìn vào máy tính bảng.']],explain:'Cả hai đang hướng mắt vào một thiết bị cầm tay.'},
-  {type:'many-people',scene:'m3',caption:'A waiter is serving customers at a table.',answer:'A',options:[['A','A waiter is serving customers.','Một phục vụ đang phục vụ khách.'],['B','A waiter is repairing a chair.','Một phục vụ đang sửa ghế.'],['C','Customers are boarding a train.','Khách hàng đang lên tàu.'],['D','Customers are hanging signs.','Khách hàng đang treo biển.']],explain:'Một người đang đưa/đặt đồ ăn cho khách tại bàn.'},
-  {type:'many-people',scene:'m4',caption:'Two workers are lifting a box together.',answer:'C',options:[['A','Two workers are painting a ceiling.','Hai công nhân đang sơn trần.'],['B','Two workers are sitting on a bench.','Hai công nhân đang ngồi trên ghế dài.'],['C','Two workers are lifting a box.','Hai công nhân đang nâng một chiếc hộp.'],['D','Two workers are reading a menu.','Hai công nhân đang đọc thực đơn.']],explain:'Hai người cùng cầm một chiếc hộp lớn.'},
-  {type:'many-people',scene:'m5',caption:'People are waiting in line at a counter.',answer:'B',options:[['A','People are swimming in a pool.','Mọi người đang bơi trong hồ.'],['B','People are waiting in line at a counter.','Mọi người đang xếp hàng ở quầy.'],['C','People are unloading a boat.','Mọi người đang dỡ hàng khỏi thuyền.'],['D','People are repairing a printer.','Mọi người đang sửa máy in.']],explain:'Có hàng người đứng trước quầy.'},
+  {type:'many-people',scene:'m1',image:'image/group_laptop.png',photoId:'photo6',caption:'Several businesspeople are gathered around a laptop.',answer:'B',options:[['A','Several businesspeople are repairing a laptop.','Một vài doanh nhân đang sửa máy tính xách tay.'],['B','Several businesspeople are gathered around a laptop.','Một vài doanh nhân đang tụ tập quanh một máy tính xách tay.'],['C','Several businesspeople are standing in line at a counter.','Một vài doanh nhân đang xếp hàng ở quầy.'],['D','Several businesspeople are moving chairs into a room.','Một vài doanh nhân đang chuyển ghế vào phòng.']],explain:'Nhóm người mặc trang phục công sở đang tụ tập quanh máy tính xách tay trên bàn.'},
+  {type:'many-people',scene:'m2',image:'image/dry_cleaning_counter.png',photoId:'photo7',caption:'A clerk is handing a garment to a customer across a counter.',answer:'A',options:[['A','A clerk is handing a garment to a customer across a counter.','Một nhân viên đang đưa một bộ quần áo cho khách qua quầy.'],['B','A customer is sweeping the floor near a counter.','Một khách hàng đang quét sàn gần quầy.'],['C','A clerk is hanging a clock on the wall.','Một nhân viên đang treo đồng hồ lên tường.'],['D','Two customers are folding towels on a shelf.','Hai khách hàng đang gấp khăn trên kệ.']],explain:'Nhân viên ở phía sau quầy đang đưa món đồ được bọc cho khách hàng.'},
+  {type:'many-people',scene:'m3',image:'image/two_women_table.png',photoId:'photo8',caption:'Two women are sitting at a table with a bag between them.',answer:'D',options:[['A','Two women are riding bicycles outside.','Hai phụ nữ đang đạp xe ngoài trời.'],['B','Two women are painting a wall together.','Hai phụ nữ đang cùng sơn tường.'],['C','Two women are loading boxes onto a truck.','Hai phụ nữ đang chất thùng lên xe tải.'],['D','Two women are sitting at a table with a bag between them.','Hai phụ nữ đang ngồi ở bàn với một chiếc túi ở giữa họ.']],explain:'Hai phụ nữ đang ngồi tại bàn; một chiếc túi lớn nằm giữa họ.'},
+  {type:'many-people',scene:'m4',image:'image/study_group_table.png',photoId:'photo9',caption:'Three women are studying together at a table.',answer:'C',options:[['A','Three women are waiting at a bus stop.','Ba phụ nữ đang chờ ở trạm xe buýt.'],['B','Three women are carrying luggage through an airport.','Ba phụ nữ đang mang hành lý qua sân bay.'],['C','Three women are studying together at a table.','Ba phụ nữ đang học cùng nhau tại một chiếc bàn.'],['D','Three women are washing dishes in a kitchen.','Ba phụ nữ đang rửa chén trong bếp.']],explain:'Ba phụ nữ ngồi quanh bàn với sách vở mở ra trước mặt.'},
+  {type:'many-people',scene:'m5',image:'image/colleagues_map.png',photoId:'photo10',caption:'Two colleagues are looking at a map on a desk.',answer:'A',options:[['A','Two colleagues are looking at a map on a desk.','Hai đồng nghiệp đang nhìn vào một bản đồ trên bàn.'],['B','Two colleagues are carrying a ladder outside.','Hai đồng nghiệp đang mang thang ngoài trời.'],['C','Two colleagues are serving food to customers.','Hai đồng nghiệp đang phục vụ thức ăn cho khách.'],['D','Two colleagues are stacking books on a shelf.','Hai đồng nghiệp đang xếp sách lên kệ.']],explain:'Hai người đang cúi nhìn bản đồ/tài liệu lớn trên bàn; một người đang chỉ vào đó.'},
 
   {type:'object',scene:'o1',caption:'Some bicycles are parked beside a railing.',answer:'C',options:[['A','Some bicycles are being repaired.','Một vài xe đạp đang được sửa.'],['B','Some bicycles are hanging from a ceiling.','Một vài xe đạp đang treo trên trần.'],['C','Some bicycles are parked beside a railing.','Một vài xe đạp được đậu cạnh lan can.'],['D','Some bicycles are being loaded onto a truck.','Một vài xe đạp đang được chất lên xe tải.']],explain:'Không có người; các xe đạp đứng yên cạnh lan can.'},
   {type:'object',scene:'o2',caption:'Several cups are arranged on a shelf.',answer:'A',options:[['A','Several cups are arranged on a shelf.','Nhiều chiếc cốc được xếp trên kệ.'],['B','Several cups are floating in water.','Nhiều chiếc cốc đang nổi trên nước.'],['C','A shelf is being painted.','Một chiếc kệ đang được sơn.'],['D','A cup is being washed by a woman.','Một chiếc cốc đang được một phụ nữ rửa.']],explain:'Các cốc được xếp ngay ngắn trên kệ.'},
@@ -562,8 +593,9 @@ function playPhotoAudio(src, btn){
   }
 }
 
-function renderAnnotatedFrame(scene, caption, key){
-  return `<div class="photo-frame"><div class="image-stage">${sceneSvg(scene)}${annotationOverlay(scene, caption)}</div></div>`;
+function renderAnnotatedFrame(scene, caption, key, mode='normal'){
+  const overlay = mode === 'practice' ? practiceAnnotationOverlay(scene, caption) : annotationOverlay(scene, caption);
+  return `<div class="photo-frame"><div class="image-stage">${sceneSvg(scene)}${overlay}</div></div>`;
 }
 
 const photoAnnotations = {
@@ -596,8 +628,79 @@ const photoAnnotations = {
     {title:'Hành động', value:'is talking', bx:715, by:24, ax:392, ay:372},
     {title:'Tân ngữ', value:'on a phone', bx:700, by:136, ax:388, ay:330},
     {title:'Trạng ngữ', value:'on a bench', bx:22, by:890, ax:760, ay:710}
+  ],
+  photo6: [
+    {title:'Đối tượng chính', value:'Several businesspeople', bx:18, by:18, ax:480, ay:360},
+    {title:'Hành động', value:'are gathered', bx:18, by:92, ax:505, ay:430},
+    {title:'Tân ngữ', value:'around a laptop', bx:18, by:166, ax:500, ay:710},
+    {title:'Trạng ngữ', value:'around a laptop', bx:18, by:240, ax:500, ay:710}
+  ],
+  photo7: [
+    {title:'Đối tượng chính', value:'A clerk', bx:18, by:18, ax:760, ay:350},
+    {title:'Hành động', value:'is handing', bx:18, by:92, ax:610, ay:440},
+    {title:'Tân ngữ', value:'a garment', bx:18, by:166, ax:520, ay:520},
+    {title:'Trạng ngữ', value:'across a counter', bx:18, by:240, ax:510, ay:690}
+  ],
+  photo8: [
+    {title:'Đối tượng chính', value:'Two women', bx:18, by:18, ax:500, ay:360},
+    {title:'Hành động', value:'are sitting', bx:18, by:92, ax:500, ay:560},
+    {title:'Tân ngữ', value:'a bag', bx:18, by:166, ax:630, ay:640},
+    {title:'Trạng ngữ', value:'at a table', bx:18, by:240, ax:500, ay:830}
+  ],
+  photo9: [
+    {title:'Đối tượng chính', value:'Three women', bx:18, by:18, ax:500, ay:430},
+    {title:'Hành động', value:'are studying', bx:18, by:92, ax:510, ay:650},
+    {title:'Tân ngữ', value:'books', bx:18, by:166, ax:480, ay:760},
+    {title:'Trạng ngữ', value:'at a table', bx:18, by:240, ax:500, ay:820}
+  ],
+  photo10: [
+    {title:'Đối tượng chính', value:'Two colleagues', bx:18, by:18, ax:480, ay:310},
+    {title:'Hành động', value:'are looking', bx:18, by:92, ax:500, ay:610},
+    {title:'Tân ngữ', value:'at a map', bx:18, by:166, ax:520, ay:780},
+    {title:'Trạng ngữ', value:'on a desk', bx:18, by:240, ax:520, ay:840}
   ]
 };
+
+function practiceBoxGroup(item, index){
+  const top = 18 + index * 74;
+  const left = 18;
+  const bw = 300;
+  const bh = 58;
+  const labelMap = {
+    'Đối tượng chính':'S',
+    'Hành động':'V',
+    'Tân ngữ':'O',
+    'Trạng ngữ':'ADV'
+  };
+  const title = labelMap[item.title] || item.title;
+  const value = fitText(item.value, 30);
+  return `<g class="annotation-step reveal">
+    <rect class="annotation-note-box" x="${left}" y="${top}" width="${bw}" height="${bh}" />
+    <text class="annotation-note-title" x="${left+14}" y="${top+22}">${escapeHtml(title)}</text>
+    <text class="annotation-note-value" x="${left+14}" y="${top+46}">${escapeHtml(value)}</text>
+  </g>`;
+}
+function renderPracticePhotoOverlay(photoId){
+  const source = photoAnnotations[photoId] || [];
+  const order = ['Đối tượng chính','Hành động','Tân ngữ','Trạng ngữ'];
+  const items = order
+    .map(title => source.find(x => x.title === title))
+    .filter(Boolean);
+  const boxes = items.map((item, index)=>practiceBoxGroup(item, index)).join('');
+  return `<svg class="annotation-overlay photo-overlay" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">${boxes}</svg>`;
+}
+function practiceAnnotationOverlay(scene, caption){
+  const parts = parseCaptionParts(caption);
+  const items = [
+    {title:'Đối tượng chính', value:parts.subject},
+    {title:'Hành động', value:parts.action},
+    {title:'Tân ngữ', value:parts.object},
+    {title:'Trạng ngữ', value:parts.adverbial}
+  ].filter(x => x.value);
+  const boxes = items.map((item, index)=>practiceBoxGroup(item, index)).join('');
+  return `<svg class="annotation-overlay" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">${boxes}</svg>`;
+}
+
 function renderPhotoOverlay(photoId){
   const items = photoAnnotations[photoId] || [];
   const boxes = items.map(item => {
@@ -610,8 +713,9 @@ function renderPhotoOverlay(photoId){
   }).join('');
   return `<svg class="annotation-overlay photo-overlay" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">${boxes}</svg>`;
 }
-function renderCustomPhotoFrame(src, caption, key, photoId){
-  return `<div class="photo-frame"><div class="image-stage"><img class="real-photo" src="${src}" alt="${escapeHtml(caption)}">${renderPhotoOverlay(photoId)}</div></div>`;
+function renderCustomPhotoFrame(src, caption, key, photoId, mode='normal'){
+  const overlay = mode === 'practice' ? renderPracticePhotoOverlay(photoId) : renderPhotoOverlay(photoId);
+  return `<div class="photo-frame"><div class="image-stage"><img class="real-photo" src="${src}" alt="${escapeHtml(caption)}">${overlay}</div></div>`;
 }
 
 const slides = [];
@@ -640,8 +744,8 @@ function renderSlides(){
     if(s.kind==='quiz'){
       const q=s.data;
       const photoHtml = q.image
-        ? renderCustomPhotoFrame(q.image, q.caption, 'quiz-'+idx, q.photoId)
-        : renderAnnotatedFrame(q.scene, q.caption, 'quiz-'+idx);
+        ? renderCustomPhotoFrame(q.image, q.caption, 'quiz-'+idx, q.photoId, 'practice')
+        : renderAnnotatedFrame(q.scene, q.caption, 'quiz-'+idx, 'practice');
 
       const optionsHtml = q.options.map(o=>`
         <label class="option">
@@ -652,13 +756,6 @@ function renderSlides(){
             <span class="option-vn">${escapeHtml(o[2])}</span>
           </span>
         </label>
-      `).join('');
-
-      const translationHtml = q.options.map(o=>`
-        <div class="translation-item">
-          <span class="letter">${o[0]}.</span>
-          <b>${escapeHtml(o[1])}</b><br>${escapeHtml(o[2])}
-        </div>
       `).join('');
 
       return `<section class="slide quiz-slide" data-index="${idx}">
@@ -687,12 +784,7 @@ function renderSlides(){
                 <h3 class="result-title"></h3>
                 <p class="explain"></p>
               </div>
-
-              <div class="translation-box" id="trans-${idx}">
-                <h3>Dịch nhanh đáp án</h3>
-                ${translationHtml}
-              </div>
-            </div>
+</div>
           </div>
         </div>
       </section>`;
@@ -769,7 +861,6 @@ function checkAnswer(){
   explain.innerHTML=`<span class="answer-key">Đáp án đúng: ${q.answer}</span> — ${escapeHtml(q.explain)}`;
   slide.querySelectorAll('input[type="radio"]').forEach(x=>x.disabled=true);
   slide.classList.add('answer-locked','answer-checked');
-  document.getElementById('trans-'+currentSlide).classList.add('show');
   updateProgress();
 }
 function updateScore(){
