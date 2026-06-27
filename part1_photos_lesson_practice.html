@@ -171,54 +171,130 @@ const partTypes = [
     example:{scene:'ex-many-people', caption:'Two colleagues are shaking hands beside a table.', answer:'C', options:[['A','Two people are moving chairs.','Hai người đang di chuyển ghế.'],['B','Two people are eating lunch.','Hai người đang ăn trưa.'],['C','Two people are shaking hands.','Hai người đang bắt tay.'],['D','Two people are hanging pictures.','Hai người đang treo tranh.']], analysis:['Có hai người đối diện nhau.','Tay của họ chạm nhau ở giữa.','Hành động chính là shaking hands.']}
   },
   {
-    type:'object', no:3, title:'Loại 3: Ảnh cảnh vật / không có người', short:'Scenes & Objects',
-    idea:'Ảnh cảnh vật có thể là đồ vật trong phòng, quán xá, sân bay, đường phố, công trình, bến cảng hoặc phong cảnh ngoài trời. Trọng tâm là vật/cảnh gì đang ở đâu, được sắp xếp như thế nào, hoặc trạng thái của chúng.',
-    formula:'OBJECT / SCENE + is/are + placed / arranged / located / parked + PLACE',
-    tips:['Xác định danh từ/cảnh chính: tables, chairs, vehicles, shelves, boats, buildings, theater, harbor.','Đáp án thường dùng bị động hoặc trạng thái: are arranged, are displayed, are parked, is located.','Cẩn thận giới từ/vị trí: on, near, beside, along, in front of, around.','Không ép phải có hành động nếu ảnh chỉ mô tả trạng thái hoặc cảnh vật.'],
+    type:'object', no:3, title:'Loại 3: Tả cảnh vật / không có người', short:'Scenes & Objects',
+    idea:'Nhóm này gom ảnh đồ vật, cảnh trong nhà, cảnh ngoài trời, phương tiện và công trình. Không ép đủ O hoặc ADV; câu có thành phần nào thì phân tích thành phần đó.',
+    formula:'SCENE / OBJECT + is/are + arranged / placed / parked / docked / located + PLACE',
+    tips:['Nhìn danh từ/cảnh chính trước: tables, chairs, vehicles, shelves, boats, buildings, theater, harbor.','Nếu ảnh chỉ là trạng thái, không ép hành động động như walking/running/working.','Cẩn thận giới từ/vị trí: under, near, around, above, by, at, in.','Không phải câu nào cũng có tân ngữ hoặc trạng ngữ. Có gì rõ thì phân tích cái đó.'],
     example:{scene:'ex-object', caption:'Several chairs are arranged around a table.', answer:'A', options:[['A','Several chairs are arranged around a table.','Nhiều ghế được sắp quanh một chiếc bàn.'],['B','Some books are stacked on the floor.','Một vài quyển sách được xếp trên sàn.'],['C','A computer is being repaired.','Một máy tính đang được sửa.'],['D','A table is covered with food.','Một chiếc bàn được phủ đầy thức ăn.']], analysis:['Ảnh không có người.','Danh từ chính là chairs và table.','Giới từ đúng là around a table.']}
-  },
-  {
-    type:'workplace', no:4, title:'Loại 4: Ảnh văn phòng / cửa hàng / nơi làm việc', short:'Workplace',
-    idea:'Dạng này thường có bàn làm việc, máy tính, quầy hàng, kệ sản phẩm, nhân viên hoặc khách hàng.',
-    formula:'A person / customers / items + be + V-ing / placed / displayed',
-    tips:['Xác định bối cảnh: office, store, restaurant, reception desk.','Nhìn đồ vật nghề nghiệp: laptop, shelves, counter, documents, headset.','Chú ý hành động nhỏ: typing, pointing, checking, serving.','Cẩn thận đáp án đúng nơi nhưng sai hành động.'],
-    example:{scene:'ex-workplace', caption:'A man is typing on a laptop at a desk.', answer:'D', options:[['A','A man is cleaning a window.','Một người đàn ông đang lau cửa sổ.'],['B','A man is serving customers.','Một người đàn ông đang phục vụ khách hàng.'],['C','A man is carrying a ladder.','Một người đàn ông đang mang thang.'],['D','A man is typing on a laptop.','Một người đàn ông đang gõ trên máy tính xách tay.']], analysis:['Bối cảnh là bàn làm việc.','Người đàn ông đặt tay trên laptop.','Hành động chính là typing.']}
   }
 ];
 
 const quizData = [
-  {type:'one-person',scene:'p1',image:'image/office_phone.png',photoId:'photo1',caption:'A woman is talking on the phone at a desk.',answer:'B',options:[['A','A woman is shelving some books.','Một phụ nữ đang xếp sách lên kệ.'],['B','A woman is talking on the phone at a desk.','Một phụ nữ đang nói chuyện điện thoại tại bàn làm việc.'],['C','A woman is opening a window.','Một phụ nữ đang mở cửa sổ.'],['D','A woman is carrying a box.','Một phụ nữ đang mang một chiếc hộp.']],explain:'Người phụ nữ đang cầm ống nghe điện thoại và ngồi ở bàn làm việc, vì vậy đáp án đúng là talking on the phone at a desk.'},
-  {type:'one-person',scene:'p2',image:'image/folded_towels.png',photoId:'photo2',caption:'A woman is placing some folded towels on top of a cabinet.',answer:'C',options:[['A','A woman is sweeping the floor.','Một phụ nữ đang quét sàn nhà.'],['B','A woman is checking the time on a watch.','Một phụ nữ đang xem giờ trên đồng hồ đeo tay.'],['C','A woman is placing some folded towels on top of a cabinet.','Một phụ nữ đang đặt vài chiếc khăn đã gấp lên trên tủ.'],['D','A woman is ironing a shirt.','Một phụ nữ đang ủi áo sơ mi.']],explain:'Người phụ nữ đang với tay lên cao để đặt những chiếc khăn đã gấp lên trên nóc tủ.'},
-  {type:'one-person',scene:'p3',image:'image/shovel_work.png',photoId:'photo3',caption:'A man is using a shovel beside a house.',answer:'A',options:[['A','A man is using a shovel beside a house.','Một người đàn ông đang dùng xẻng bên cạnh một ngôi nhà.'],['B','A man is washing a truck.','Một người đàn ông đang rửa xe tải.'],['C','A man is painting a fence.','Một người đàn ông đang sơn hàng rào.'],['D','A man is carrying a ladder indoors.','Một người đàn ông đang mang thang vào trong nhà.']],explain:'Người đàn ông đang cúi xuống, cầm xẻng và làm việc dọc theo mép ngôi nhà.'},
-  {type:'one-person',scene:'p4',image:'image/library_shelf.png',photoId:'photo4',caption:'A woman is reaching for a book on a shelf.',answer:'D',options:[['A','A woman is pushing a cart through a hallway.','Một phụ nữ đang đẩy xe đẩy qua hành lang.'],['B','A woman is sitting at a reference desk.','Một phụ nữ đang ngồi ở quầy tra cứu.'],['C','A woman is closing a file cabinet.','Một phụ nữ đang đóng tủ hồ sơ.'],['D','A woman is reaching for a book on a shelf.','Một phụ nữ đang với lấy một quyển sách trên kệ.']],explain:'Người phụ nữ đứng giữa hai dãy kệ sách và đang vươn tay lấy một quyển sách.'},
-  {type:'one-person',scene:'p5',image:'image/bench_phone.png',photoId:'photo5',caption:'A woman is talking on a phone while sitting on a bench.',answer:'B',options:[['A','A woman is jogging along a street.','Một phụ nữ đang chạy bộ dọc theo con đường.'],['B','A woman is talking on a phone while sitting on a bench.','Một phụ nữ đang nói chuyện điện thoại khi ngồi trên ghế băng.'],['C','A woman is loading groceries into a car.','Một phụ nữ đang chất đồ tạp hóa vào xe hơi.'],['D','A woman is feeding some birds in a park.','Một phụ nữ đang cho chim ăn trong công viên.']],explain:'Người phụ nữ đang ngồi trên ghế băng ngoài trời và cầm điện thoại bên tai.'},
-
-  {type:'many-people',scene:'m1',image:'image/group_laptop.png',photoId:'photo6',caption:'Several businesspeople are gathered around a laptop in the office.',answer:'B',options:[['A','Several businesspeople are repairing a laptop.','Một vài doanh nhân đang sửa máy tính xách tay.'],['B','Several businesspeople are gathered around a laptop in the office.','Một vài doanh nhân đang tụ tập quanh máy tính xách tay trong văn phòng.'],['C','Several businesspeople are standing in line at a counter.','Một vài doanh nhân đang xếp hàng ở quầy.'],['D','Several businesspeople are moving chairs into a room.','Một vài doanh nhân đang chuyển ghế vào phòng.']],explain:'Nhóm người mặc trang phục công sở đang tụ tập quanh máy tính xách tay trong văn phòng.'},
-  {type:'many-people',scene:'m2',image:'image/dry_cleaning_counter.png',photoId:'photo7',caption:'A clerk is handing a garment to a customer across a counter.',answer:'A',options:[['A','A clerk is handing a garment to a customer across a counter.','Một nhân viên đang đưa một bộ quần áo cho khách qua quầy.'],['B','A customer is sweeping the floor near a counter.','Một khách hàng đang quét sàn gần quầy.'],['C','A clerk is hanging a clock on the wall.','Một nhân viên đang treo đồng hồ lên tường.'],['D','Two customers are folding towels on a shelf.','Hai khách hàng đang gấp khăn trên kệ.']],explain:'Nhân viên ở phía sau quầy đang đưa món đồ được bọc cho khách hàng.'},
-  {type:'many-people',scene:'m3',image:'image/two_women_table.png',photoId:'photo8',caption:'Two women are sitting at a table.',answer:'D',options:[['A','Two women are riding bicycles outside.','Hai phụ nữ đang đạp xe ngoài trời.'],['B','Two women are painting a wall together.','Hai phụ nữ đang cùng sơn tường.'],['C','Two women are loading boxes onto a truck.','Hai phụ nữ đang chất thùng lên xe tải.'],['D','Two women are sitting at a table.','Hai phụ nữ đang ngồi ở bàn.']],explain:'Hai phụ nữ đang ngồi tại bàn. Chiếc túi có trong ảnh nhưng không cần đưa vào mô tả chính.'},
-  {type:'many-people',scene:'m4',image:'image/study_group_table.png',photoId:'photo9',caption:'Three women are reading together at a table.',answer:'C',options:[['A','Three women are waiting at a bus stop.','Ba phụ nữ đang chờ ở trạm xe buýt.'],['B','Three women are carrying luggage through an airport.','Ba phụ nữ đang mang hành lý qua sân bay.'],['C','Three women are reading together at a table.','Ba phụ nữ đang đọc cùng nhau tại một chiếc bàn.'],['D','Three women are washing dishes in a kitchen.','Ba phụ nữ đang rửa chén trong bếp.']],explain:'Ba phụ nữ đang nhìn vào sách/tài liệu mở trên bàn, nên động từ phù hợp là are reading.'},
-  {type:'many-people',scene:'m5',image:'image/colleagues_map.png',photoId:'photo10',caption:'Two colleagues are looking at a map on a desk.',answer:'A',options:[['A','Two colleagues are looking at a map on a desk.','Hai đồng nghiệp đang nhìn vào một bản đồ trên bàn.'],['B','Two colleagues are carrying a ladder outside.','Hai đồng nghiệp đang mang thang ngoài trời.'],['C','Two colleagues are serving food to customers.','Hai đồng nghiệp đang phục vụ thức ăn cho khách.'],['D','Two colleagues are stacking books on a shelf.','Hai đồng nghiệp đang xếp sách lên kệ.']],explain:'Hai người đang cúi nhìn bản đồ/tài liệu lớn trên bàn; một người đang chỉ vào đó.'},
-
-  {type:'object',scene:'o1',image:'image/seaside_cafe_umbrellas.png',photoId:'photo11',caption:'Several tables and chairs are arranged under umbrellas by the water.',answer:'A',options:[['A','Several tables and chairs are arranged under umbrellas by the water.','Nhiều bàn ghế được sắp dưới các ô che nắng cạnh mặt nước.'],['B','Several passengers are boarding a plane at the gate.','Nhiều hành khách đang lên máy bay ở cổng.'],['C','Several cars are being transported on a truck.','Nhiều xe hơi đang được chở trên xe tải.'],['D','Several people are reading books in a library.','Nhiều người đang đọc sách trong thư viện.']],explain:'Ảnh cho thấy bàn ghế ngoài trời dưới các ô che nắng, cạnh mặt nước.'},
-  {type:'object',scene:'o2',image:'image/airplane_at_gate.png',photoId:'photo12',caption:'An airplane is parked at an airport gate.',answer:'B',options:[['A','An airplane is taking off from a runway.','Một máy bay đang cất cánh khỏi đường băng.'],['B','An airplane is parked at an airport gate.','Một máy bay đang đậu tại cổng sân bay.'],['C','Several boats are floating near a hotel.','Nhiều thuyền đang nổi gần khách sạn.'],['D','A theater is filled with passengers.','Một nhà hát đầy hành khách.']],explain:'Máy bay đứng yên tại khu vực cổng, có xe/dụng cụ phục vụ xung quanh.'},
-  {type:'object',scene:'o3',image:'image/car_transporter_highway.png',photoId:'photo13',caption:'Several cars are being transported on a truck.',answer:'C',options:[['A','Several cars are parked around a courtyard.','Nhiều xe hơi được đậu quanh sân trong.'],['B','Several cars are floating in a harbor.','Nhiều xe hơi đang nổi trong cảng.'],['C','Several cars are being transported on a truck.','Nhiều xe hơi đang được chở trên một xe tải.'],['D','Several cars are displayed on shelves.','Nhiều xe hơi được trưng bày trên kệ.']],explain:'Có nhiều xe hơi nằm trên xe chuyên chở đang chạy trên đường.'},
-  {type:'object',scene:'o4',image:'image/empty_theater.png',photoId:'photo14',caption:'Rows of seats are facing a large screen in a theater.',answer:'D',options:[['A','Rows of seats are being loaded onto a truck.','Nhiều hàng ghế đang được chất lên xe tải.'],['B','Rows of seats are arranged under beach umbrellas.','Nhiều hàng ghế được sắp dưới ô che nắng bãi biển.'],['C','Rows of seats are floating in the water.','Nhiều hàng ghế đang nổi trên mặt nước.'],['D','Rows of seats are facing a large screen in a theater.','Nhiều hàng ghế đang hướng về một màn hình lớn trong rạp.']],explain:'Ảnh là rạp/khán phòng trống với nhiều hàng ghế hướng về màn hình lớn.'},
-  {type:'object',scene:'o5',image:'image/boats_near_buildings.png',photoId:'photo15',caption:'Several boats are floating near waterfront buildings.',answer:'A',options:[['A','Several boats are floating near waterfront buildings.','Nhiều thuyền đang nổi gần các tòa nhà ven nước.'],['B','Several boats are parked inside an office.','Nhiều thuyền được đậu trong văn phòng.'],['C','Several boats are being stacked on shelves.','Nhiều thuyền đang được xếp trên kệ.'],['D','Several boats are facing a movie screen.','Nhiều thuyền đang hướng về màn hình chiếu phim.']],explain:'Có thuyền trên mặt nước, phía sau là các tòa nhà ven bờ.'},
-  {type:'object',scene:'o6',image:'image/courtyard_cars.png',photoId:'photo16',caption:'Cars are parked around a large courtyard.',answer:'C',options:[['A','Cars are being loaded onto an airplane.','Xe hơi đang được chất lên máy bay.'],['B','Cars are arranged on shelves in a kitchen.','Xe hơi được sắp trên kệ trong bếp.'],['C','Cars are parked around a large courtyard.','Xe hơi được đậu quanh một sân trong rộng.'],['D','Cars are floating beside sailboats.','Xe hơi đang nổi cạnh thuyền buồm.']],explain:'Ảnh chụp từ trên cao cho thấy xe hơi đậu xung quanh sân trong của tòa nhà.'},
-  {type:'object',scene:'o7',image:'image/harbor_mountain_view.png',photoId:'photo17',caption:'Many boats are docked in a harbor near rocky hills.',answer:'B',options:[['A','Many boats are arranged on a theater stage.','Nhiều thuyền được sắp trên sân khấu nhà hát.'],['B','Many boats are docked in a harbor near rocky hills.','Nhiều thuyền được neo tại bến cảng gần các đồi đá.'],['C','Many boats are being transported on a highway.','Nhiều thuyền đang được chở trên đường cao tốc.'],['D','Many boats are displayed on a kitchen counter.','Nhiều thuyền được trưng bày trên quầy bếp.']],explain:'Ảnh có bến cảng, nhiều thuyền neo đậu và cảnh núi/đồi đá phía sau.'},
-  {type:'object',scene:'o8',image:'image/lounge_chair_vase.png',photoId:'photo18',caption:'A chair and a small table are placed near a dresser.',answer:'D',options:[['A','A chair and a table are floating beside boats.','Một ghế và bàn đang nổi cạnh các thuyền.'],['B','A chair and a table are being carried by passengers.','Một ghế và bàn đang được hành khách mang đi.'],['C','A chair and a table are arranged under outdoor umbrellas.','Một ghế và bàn được sắp dưới các ô ngoài trời.'],['D','A chair and a small table are placed near a dresser.','Một ghế và một bàn nhỏ được đặt gần tủ.']],explain:'Trong phòng có ghế bành, bàn nhỏ và tủ trang trí phía sau.'},
-  {type:'object',scene:'o9',image:'image/kitchen_shelves_mugs.png',photoId:'photo19',caption:'Mugs and containers are arranged on shelves above a counter.',answer:'A',options:[['A','Mugs and containers are arranged on shelves above a counter.','Ly và hộp đựng được sắp trên kệ phía trên quầy.'],['B','Mugs and containers are parked around a courtyard.','Ly và hộp đựng được đậu quanh sân trong.'],['C','Mugs and containers are being loaded onto a truck.','Ly và hộp đựng đang được chất lên xe tải.'],['D','Mugs and containers are floating in a harbor.','Ly và hộp đựng đang nổi trong cảng.']],explain:'Các ly/cốc và hộp đựng được sắp thành hàng trên kệ trong khu bếp/quầy.'},
-
-  {type:'workplace',scene:'w1',caption:'A woman is speaking into a headset at a desk.',answer:'C',options:[['A','A woman is watering plants at a desk.','Một phụ nữ đang tưới cây ở bàn.'],['B','A woman is folding shirts at a desk.','Một phụ nữ đang gấp áo ở bàn.'],['C','A woman is speaking into a headset.','Một phụ nữ đang nói vào tai nghe.'],['D','A woman is repairing a sink.','Một phụ nữ đang sửa bồn rửa.']],explain:'Cô ấy ngồi ở bàn làm việc và dùng headset.'},
-  {type:'workplace',scene:'w2',caption:'Products are displayed on store shelves.',answer:'A',options:[['A','Products are displayed on store shelves.','Sản phẩm được trưng bày trên kệ cửa hàng.'],['B','Products are being loaded into a bus.','Sản phẩm đang được chất lên xe buýt.'],['C','A cashier is counting coins.','Một thu ngân đang đếm tiền xu.'],['D','A shelf is empty.','Chiếc kệ trống rỗng.']],explain:'Các sản phẩm nằm trên nhiều tầng kệ.'},
-  {type:'workplace',scene:'w3',caption:'A man is pointing at a chart.',answer:'B',options:[['A','A man is cleaning a chart.','Một người đàn ông đang lau biểu đồ.'],['B','A man is pointing at a chart.','Một người đàn ông đang chỉ vào biểu đồ.'],['C','A man is carrying a chart outside.','Một người đàn ông đang mang biểu đồ ra ngoài.'],['D','A man is cutting paper with scissors.','Một người đàn ông đang cắt giấy bằng kéo.']],explain:'Người đàn ông đứng trước biểu đồ và đưa tay chỉ.'},
-  {type:'workplace',scene:'w4',caption:'A receptionist is handing a key to a guest.',answer:'D',options:[['A','A receptionist is washing dishes.','Một lễ tân đang rửa chén.'],['B','A receptionist is repairing a bicycle.','Một lễ tân đang sửa xe đạp.'],['C','A guest is climbing a ladder.','Một vị khách đang leo thang.'],['D','A receptionist is handing a key to a guest.','Một lễ tân đang đưa chìa khóa cho khách.']],explain:'Có quầy lễ tân và một vật nhỏ được đưa cho khách.'},
-  {type:'workplace',scene:'w5',caption:'Files are stacked beside a printer.',answer:'C',options:[['A','Files are floating in a fountain.','Hồ sơ đang nổi trong đài phun nước.'],['B','A printer is being carried downstairs.','Máy in đang được mang xuống cầu thang.'],['C','Files are stacked beside a printer.','Hồ sơ được xếp cạnh máy in.'],['D','A printer is being washed.','Máy in đang được rửa.']],explain:'Tập hồ sơ nằm thành chồng cạnh máy in.'}
+{type:'one-person',scene:'p1',image:'image/office_phone.png',photoId:'photo1',caption:'A woman is talking on the phone at a desk.',answer:'B',options:[['A','A woman is shelving some books.','Một phụ nữ đang xếp sách lên kệ.'],['B','A woman is talking on the phone at a desk.','Một phụ nữ đang nói chuyện điện thoại tại bàn làm việc.'],['C','A woman is opening a window.','Một phụ nữ đang mở cửa sổ.'],['D','A woman is carrying a box.','Một phụ nữ đang mang một chiếc hộp.']],explain:'Người phụ nữ đang cầm ống nghe điện thoại và ngồi ở bàn làm việc, vì vậy đáp án đúng là talking on the phone at a desk.'},
+{type:'one-person',scene:'p2',image:'image/folded_towels.png',photoId:'photo2',caption:'A woman is placing some folded towels on top of a cabinet.',answer:'C',options:[['A','A woman is sweeping the floor.','Một phụ nữ đang quét sàn nhà.'],['B','A woman is checking the time on a watch.','Một phụ nữ đang xem giờ trên đồng hồ đeo tay.'],['C','A woman is placing some folded towels on top of a cabinet.','Một phụ nữ đang đặt vài chiếc khăn đã gấp lên trên tủ.'],['D','A woman is ironing a shirt.','Một phụ nữ đang ủi áo sơ mi.']],explain:'Người phụ nữ đang với tay lên cao để đặt những chiếc khăn đã gấp lên trên nóc tủ.'},
+{type:'one-person',scene:'p3',image:'image/shovel_work.png',photoId:'photo3',caption:'A man is using a shovel beside a house.',answer:'A',options:[['A','A man is using a shovel beside a house.','Một người đàn ông đang dùng xẻng bên cạnh một ngôi nhà.'],['B','A man is washing a truck.','Một người đàn ông đang rửa xe tải.'],['C','A man is painting a fence.','Một người đàn ông đang sơn hàng rào.'],['D','A man is carrying a ladder indoors.','Một người đàn ông đang mang thang vào trong nhà.']],explain:'Người đàn ông đang cúi xuống, cầm xẻng và làm việc dọc theo mép ngôi nhà.'},
+{type:'one-person',scene:'p4',image:'image/library_shelf.png',photoId:'photo4',caption:'A woman is reaching for a book on a shelf.',answer:'D',options:[['A','A woman is pushing a cart through a hallway.','Một phụ nữ đang đẩy xe đẩy qua hành lang.'],['B','A woman is sitting at a reference desk.','Một phụ nữ đang ngồi ở quầy tra cứu.'],['C','A woman is closing a file cabinet.','Một phụ nữ đang đóng tủ hồ sơ.'],['D','A woman is reaching for a book on a shelf.','Một phụ nữ đang với lấy một quyển sách trên kệ.']],explain:'Người phụ nữ đứng giữa hai dãy kệ sách và đang vươn tay lấy một quyển sách.'},
+{type:'one-person',scene:'p5',image:'image/bench_phone.png',photoId:'photo5',caption:'A woman is talking on a phone while sitting on a bench.',answer:'B',options:[['A','A woman is jogging along a street.','Một phụ nữ đang chạy bộ dọc theo con đường.'],['B','A woman is talking on a phone while sitting on a bench.','Một phụ nữ đang nói chuyện điện thoại khi ngồi trên ghế băng.'],['C','A woman is loading groceries into a car.','Một phụ nữ đang chất đồ tạp hóa vào xe hơi.'],['D','A woman is feeding some birds in a park.','Một phụ nữ đang cho chim ăn trong công viên.']],explain:'Người phụ nữ đang ngồi trên ghế băng ngoài trời và cầm điện thoại bên tai.'},
+{type:'many-people',scene:'m1',image:'image/group_laptop.png',photoId:'photo6',caption:'Several businesspeople are gathered around a laptop in the office.',answer:'B',options:[['A','Several businesspeople are repairing a laptop.','Một vài doanh nhân đang sửa máy tính xách tay.'],['B','Several businesspeople are gathered around a laptop in the office.','Một vài doanh nhân đang tụ tập quanh máy tính xách tay trong văn phòng.'],['C','Several businesspeople are standing in line at a counter.','Một vài doanh nhân đang xếp hàng ở quầy.'],['D','Several businesspeople are moving chairs into a room.','Một vài doanh nhân đang chuyển ghế vào phòng.']],explain:'Nhóm người mặc trang phục công sở đang tụ tập quanh máy tính xách tay trong văn phòng.'},
+{type:'many-people',scene:'m2',image:'image/dry_cleaning_counter.png',photoId:'photo7',caption:'A clerk is handing a garment to a customer across a counter.',answer:'A',options:[['A','A clerk is handing a garment to a customer across a counter.','Một nhân viên đang đưa một bộ quần áo cho khách qua quầy.'],['B','A customer is sweeping the floor near a counter.','Một khách hàng đang quét sàn gần quầy.'],['C','A clerk is hanging a clock on the wall.','Một nhân viên đang treo đồng hồ lên tường.'],['D','Two customers are folding towels on a shelf.','Hai khách hàng đang gấp khăn trên kệ.']],explain:'Nhân viên ở phía sau quầy đang đưa món đồ được bọc cho khách hàng.'},
+{type:'many-people',scene:'m3',image:'image/two_women_table.png',photoId:'photo8',caption:'Two women are sitting at a table.',answer:'D',options:[['A','Two women are riding bicycles outside.','Hai phụ nữ đang đạp xe ngoài trời.'],['B','Two women are painting a wall together.','Hai phụ nữ đang cùng sơn tường.'],['C','Two women are loading boxes onto a truck.','Hai phụ nữ đang chất thùng lên xe tải.'],['D','Two women are sitting at a table.','Hai phụ nữ đang ngồi ở bàn.']],explain:'Hai phụ nữ đang ngồi tại bàn. Chiếc túi có trong ảnh nhưng không cần đưa vào mô tả chính.'},
+{type:'many-people',scene:'m4',image:'image/study_group_table.png',photoId:'photo9',caption:'Three women are reading together at a table.',answer:'C',options:[['A','Three women are waiting at a bus stop.','Ba phụ nữ đang chờ ở trạm xe buýt.'],['B','Three women are carrying luggage through an airport.','Ba phụ nữ đang mang hành lý qua sân bay.'],['C','Three women are reading together at a table.','Ba phụ nữ đang đọc cùng nhau tại một chiếc bàn.'],['D','Three women are washing dishes in a kitchen.','Ba phụ nữ đang rửa chén trong bếp.']],explain:'Ba phụ nữ đang nhìn vào sách/tài liệu mở trên bàn, nên động từ phù hợp là are reading.'},
+{type:'many-people',scene:'m5',image:'image/colleagues_map.png',photoId:'photo10',caption:'Two colleagues are looking at a map on a desk.',answer:'A',options:[['A','Two colleagues are looking at a map on a desk.','Hai đồng nghiệp đang nhìn vào một bản đồ trên bàn.'],['B','Two colleagues are carrying a ladder outside.','Hai đồng nghiệp đang mang thang ngoài trời.'],['C','Two colleagues are serving food to customers.','Hai đồng nghiệp đang phục vụ thức ăn cho khách.'],['D','Two colleagues are stacking books on a shelf.','Hai đồng nghiệp đang xếp sách lên kệ.']],explain:'Hai người đang cúi nhìn bản đồ/tài liệu lớn trên bàn; một người đang chỉ vào đó.'},
+  {type:'object',scene:'scene1',image:'image/seaside_cafe_umbrellas.png',photoId:'scene1',caption:'Tables and chairs are arranged under umbrellas by the water.',answer:'A',options:[['A','Tables and chairs are arranged under umbrellas by the water.','Bàn ghế được sắp dưới các ô che nắng cạnh mặt nước.'],['B','An airplane is parked at an airport gate.','Một máy bay đang đậu tại cổng sân bay.'],['C','Cars are being transported on a truck.','Xe hơi đang được chở trên xe tải.'],['D','Mugs are arranged on shelves above a counter.','Ly được sắp trên kệ phía trên quầy.']],explain:'Ảnh có bàn ghế ngoài trời được sắp dưới các ô che nắng, cạnh mặt nước.'},
+  {type:'object',scene:'scene2',image:'image/airplane_at_gate.png',photoId:'scene2',caption:'An airplane is parked at an airport gate.',answer:'B',options:[['A','An airplane is taking off from a runway.','Một máy bay đang cất cánh khỏi đường băng.'],['B','An airplane is parked at an airport gate.','Một máy bay đang đậu tại cổng sân bay.'],['C','An airplane is floating near waterfront buildings.','Một máy bay đang nổi gần các tòa nhà ven nước.'],['D','An airplane is displayed on a shelf.','Một máy bay được trưng bày trên kệ.']],explain:'Máy bay đứng yên tại cổng sân bay; không có cảnh cất cánh.'},
+  {type:'object',scene:'scene3',image:'image/car_transporter_highway.png',photoId:'scene3',caption:'Cars are being transported on a truck.',answer:'C',options:[['A','Cars are parked around a courtyard.','Xe hơi được đậu quanh sân trong.'],['B','Cars are arranged under umbrellas by the water.','Xe hơi được sắp dưới ô che nắng cạnh mặt nước.'],['C','Cars are being transported on a truck.','Xe hơi đang được chở trên xe tải.'],['D','Cars are docked in a harbor.','Xe hơi được neo ở bến cảng.']],explain:'Nhiều xe hơi nằm trên xe chuyên chở đang chạy trên đường.'},
+  {type:'object',scene:'scene4',image:'image/empty_theater.png',photoId:'scene4',caption:'Rows of seats are facing a large screen in a theater.',answer:'D',options:[['A','Rows of seats are being loaded onto a truck.','Nhiều hàng ghế đang được chất lên xe tải.'],['B','Rows of seats are floating in a harbor.','Nhiều hàng ghế đang nổi ở cảng.'],['C','Rows of seats are arranged above a kitchen counter.','Nhiều hàng ghế được sắp phía trên quầy bếp.'],['D','Rows of seats are facing a large screen in a theater.','Nhiều hàng ghế đang hướng về màn hình lớn trong rạp.']],explain:'Các hàng ghế trong rạp hướng về màn hình lớn phía trước.'},
+  {type:'object',scene:'scene5',image:'image/garden_table_cleanup.png',photoId:'scene5',caption:'A rake and a bag are placed beside a table in a garden.',answer:'B',options:[['A','A rake and a bag are floating in a harbor.','Một cái cào và một túi đang nổi ở cảng.'],['B','A rake and a bag are placed beside a table in a garden.','Một cái cào và một chiếc túi được đặt cạnh bàn trong vườn.'],['C','A rake and a bag are being transported on a truck.','Một cái cào và một chiếc túi đang được chở trên xe tải.'],['D','A rake and a bag are arranged on shelves above a counter.','Một cái cào và một chiếc túi được sắp trên kệ phía trên quầy.']],explain:'Ảnh có bàn ghế ngoài vườn, một cái cào và túi lớn đặt bên cạnh.'},
+  {type:'object',scene:'scene6',image:'image/boats_near_buildings.png',photoId:'scene6',caption:'Boats are floating near waterfront buildings.',answer:'A',options:[['A','Boats are floating near waterfront buildings.','Thuyền đang nổi gần các tòa nhà ven nước.'],['B','Boats are parked around a courtyard.','Thuyền được đậu quanh sân trong.'],['C','Boats are arranged on kitchen shelves.','Thuyền được sắp trên kệ bếp.'],['D','Boats are facing a movie screen.','Thuyền đang hướng về màn hình chiếu phim.']],explain:'Ảnh có thuyền trên mặt nước và các tòa nhà ven bờ phía sau.'},
+  {type:'object',scene:'scene7',image:'image/courtyard_cars.png',photoId:'scene7',caption:'Cars are parked around a large courtyard.',answer:'C',options:[['A','Cars are being transported on a truck.','Xe hơi đang được chở trên xe tải.'],['B','Cars are floating near waterfront buildings.','Xe hơi đang nổi gần các tòa nhà ven nước.'],['C','Cars are parked around a large courtyard.','Xe hơi được đậu quanh một sân trong rộng.'],['D','Cars are arranged under umbrellas by the water.','Xe hơi được sắp dưới ô che nắng cạnh mặt nước.']],explain:'Ảnh chụp từ trên cao cho thấy xe hơi đậu xung quanh sân trong.'},
+  {type:'object',scene:'scene8',image:'image/harbor_mountain_view.png',photoId:'scene8',caption:'Many boats are docked in a harbor near rocky hills.',answer:'B',options:[['A','Many boats are parked around a courtyard.','Nhiều thuyền được đậu quanh sân trong.'],['B','Many boats are docked in a harbor near rocky hills.','Nhiều thuyền được neo ở bến cảng gần các đồi đá.'],['C','Many boats are facing a large screen.','Nhiều thuyền đang hướng về màn hình lớn.'],['D','Many boats are arranged on shelves above a counter.','Nhiều thuyền được sắp trên kệ phía trên quầy.']],explain:'Có nhiều thuyền neo tại bến cảng, phía sau là cảnh đồi đá.'},
+  {type:'object',scene:'scene9',image:'image/lounge_chair_vase.png',photoId:'scene9',caption:'A chair and a small table are placed near a dresser.',answer:'D',options:[['A','A chair and a table are being transported on a truck.','Một ghế và bàn đang được chở trên xe tải.'],['B','A chair and a table are docked in a harbor.','Một ghế và bàn được neo ở bến cảng.'],['C','A chair and a table are floating near buildings.','Một ghế và bàn đang nổi gần các tòa nhà.'],['D','A chair and a small table are placed near a dresser.','Một ghế và một bàn nhỏ được đặt gần tủ.']],explain:'Trong phòng có ghế bành, bàn nhỏ và tủ trang trí.'},
+  {type:'object',scene:'scene10',image:'image/kitchen_shelves_mugs.png',photoId:'scene10',caption:'Mugs and containers are arranged on shelves above a counter.',answer:'A',options:[['A','Mugs and containers are arranged on shelves above a counter.','Ly và hộp đựng được sắp trên kệ phía trên quầy.'],['B','Mugs and containers are parked around a courtyard.','Ly và hộp đựng được đậu quanh sân trong.'],['C','Mugs and containers are being transported on a truck.','Ly và hộp đựng đang được chở trên xe tải.'],['D','Mugs and containers are docked in a harbor.','Ly và hộp đựng được neo ở cảng.']],explain:'Các ly/cốc và hộp đựng được sắp thành hàng trên kệ phía trên quầy.'}
 ];
 
+function sceneSvg(id){
+  const baseStart = `<svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img"><defs><linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f8fafc"/></linearGradient></defs><rect width="520" height="340" fill="url(#sky)"/><rect y="255" width="520" height="85" fill="#e2e8f0"/>`;
+  const end = `</svg>`;
+  const person = (x,y,color='#2563eb',female=false)=> female
+    ? `<path d="M${x-20} ${y+2} q20 -33 40 0 v24 q-20 16 -40 0z" fill="#334155"/><circle cx="${x}" cy="${y}" r="15" fill="#f8c9a0"/><path d="M${x-20} ${y+18} h40 l12 64 h-64z" fill="${color}"/><line x1="${x-10}" y1="${y+78}" x2="${x-26}" y2="${y+116}" stroke="#334155" stroke-width="9" stroke-linecap="round"/><line x1="${x+10}" y1="${y+78}" x2="${x+26}" y2="${y+116}" stroke="#334155" stroke-width="9" stroke-linecap="round"/>`
+    : `<circle cx="${x}" cy="${y}" r="16" fill="#f8c9a0"/><rect x="${x-18}" y="${y+17}" width="36" height="58" rx="13" fill="${color}"/><line x1="${x-12}" y1="${y+74}" x2="${x-26}" y2="${y+116}" stroke="#334155" stroke-width="10" stroke-linecap="round"/><line x1="${x+12}" y1="${y+74}" x2="${x+26}" y2="${y+116}" stroke="#334155" stroke-width="10" stroke-linecap="round"/>`;
+  const desk = `<rect x="210" y="214" width="170" height="16" rx="4" fill="#8b5e34"/><rect x="230" y="230" width="12" height="52" fill="#6b4423"/><rect x="350" y="230" width="12" height="52" fill="#6b4423"/>`;
+  const laptop = `<rect x="270" y="178" width="70" height="44" rx="5" fill="#0f172a"/><rect x="278" y="186" width="54" height="28" fill="#93c5fd"/><rect x="260" y="222" width="90" height="8" rx="3" fill="#475569"/>`;
+  const table = `<ellipse cx="270" cy="235" rx="95" ry="24" fill="#8b5e34"/><rect x="248" y="235" width="18" height="58" fill="#6b4423"/><rect x="292" y="235" width="18" height="58" fill="#6b4423"/>`;
+  const boxes = `<rect x="330" y="205" width="54" height="42" fill="#d97706" stroke="#92400e" stroke-width="3"/><rect x="385" y="205" width="54" height="42" fill="#f59e0b" stroke="#92400e" stroke-width="3"/><rect x="358" y="162" width="54" height="42" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>`;
+  const shelf = `<rect x="80" y="85" width="350" height="18" fill="#8b5e34"/><rect x="80" y="160" width="350" height="18" fill="#8b5e34"/><rect x="80" y="235" width="350" height="18" fill="#8b5e34"/><rect x="90" y="90" width="14" height="170" fill="#6b4423"/><rect x="405" y="90" width="14" height="170" fill="#6b4423"/>`;
+  const truck = `<rect x="130" y="180" width="180" height="72" rx="8" fill="#2563eb"/><rect x="310" y="205" width="85" height="47" rx="5" fill="#1d4ed8"/><rect x="330" y="212" width="36" height="22" fill="#bfdbfe"/><circle cx="178" cy="258" r="22" fill="#0f172a"/><circle cx="350" cy="258" r="22" fill="#0f172a"/><circle cx="178" cy="258" r="10" fill="#cbd5e1"/><circle cx="350" cy="258" r="10" fill="#cbd5e1"/>`;
+  const building = `<rect x="345" y="70" width="110" height="185" fill="#cbd5e1"/><rect x="365" y="95" width="24" height="28" fill="#60a5fa"/><rect x="410" y="95" width="24" height="28" fill="#60a5fa"/><rect x="365" y="145" width="24" height="28" fill="#60a5fa"/><rect x="410" y="145" width="24" height="28" fill="#60a5fa"/>`;
+  const machine = `<rect x="290" y="170" width="120" height="85" rx="10" fill="#94a3b8"/><circle cx="320" cy="200" r="18" fill="#dbeafe"/><rect x="350" y="190" width="38" height="14" fill="#334155"/><rect x="315" y="252" width="80" height="12" fill="#64748b"/>`;
+  let s = baseStart;
+  switch(id){
+    case 'ex-one-person': s+=`<rect x="0" y="248" width="520" height="92" fill="#bbf7d0"/><circle cx="430" cy="70" r="34" fill="#fde68a"/>${person(170,126,'#e11d48',true)}<line x1="188" y1="168" x2="240" y2="142" stroke="#e11d48" stroke-width="9" stroke-linecap="round"/><path d="M238 145 q38 18 18 54 q-38 -18 -18 -54" fill="#60a5fa"/><line x1="256" y1="178" x2="310" y2="222" stroke="#60a5fa" stroke-width="5"/><line x1="266" y1="174" x2="322" y2="216" stroke="#60a5fa" stroke-width="5"/><rect x="315" y="205" width="55" height="42" fill="#92400e"/><ellipse cx="342" cy="198" rx="34" ry="15" fill="#22c55e"/>`; break;
+    case 'ex-many-people': s+=`${table}${person(170,116,'#2563eb')}${person(350,116,'#16a34a',true)}<line x1="188" y1="164" x2="260" y2="188" stroke="#2563eb" stroke-width="9" stroke-linecap="round"/><line x1="332" y1="164" x2="260" y2="188" stroke="#16a34a" stroke-width="9" stroke-linecap="round"/>`; break;
+    case 'ex-object': s+=`${table}<rect x="125" y="203" width="42" height="70" rx="8" fill="#93c5fd"/><rect x="365" y="203" width="42" height="70" rx="8" fill="#93c5fd"/><rect x="210" y="270" width="42" height="50" rx="8" fill="#93c5fd"/><rect x="270" y="270" width="42" height="50" rx="8" fill="#93c5fd"/>`; break;
+    case 'ex-workplace': s+=`${desk}${laptop}${person(215,126,'#2563eb')}<line x1="233" y1="170" x2="270" y2="205" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/><line x1="197" y1="170" x2="268" y2="210" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>`; break;
+    case 'ex-outdoor': s+=`<rect x="0" y="250" width="520" height="90" fill="#94a3b8"/>${building}${truck}`; break;
+    case 'p1': s+=`<rect x="0" y="248" width="520" height="92" fill="#bbf7d0"/><rect x="140" y="225" width="240" height="18" rx="6" fill="#8b5e34"/><rect x="160" y="243" width="14" height="48" fill="#6b4423"/><rect x="340" y="243" width="14" height="48" fill="#6b4423"/>${person(245,128,'#2563eb')}<rect x="270" y="150" width="55" height="40" fill="#fff" stroke="#64748b" stroke-width="3"/><line x1="262" y1="168" x2="290" y2="171" stroke="#2563eb" stroke-width="7"/>`; break;
+    case 'p2': s+=`${person(225,112,'#db2777',true)}<rect x="250" y="160" width="62" height="48" fill="#f59e0b" stroke="#92400e" stroke-width="3"/><rect x="196" y="170" width="58" height="44" fill="#fbbf24" stroke="#92400e" stroke-width="3"/><line x1="242" y1="160" x2="250" y2="182" stroke="#db2777" stroke-width="8"/>`; break;
+    case 'p3': s+=`${machine}${person(220,113,'#0f766e')}<line x1="238" y1="160" x2="295" y2="195" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/><circle cx="300" cy="198" r="7" fill="#111827"/>`; break;
+    case 'p4': s+=`<rect x="80" y="220" width="360" height="30" rx="6" fill="#8b5e34"/>${person(210,110,'#ef4444')}<rect x="255" y="192" width="82" height="24" rx="12" fill="#fff" stroke="#94a3b8"/><circle cx="295" cy="203" r="9" fill="#22c55e"/><rect x="176" y="90" width="70" height="22" rx="10" fill="#fff"/>`; break;
+    case 'p5': s+=`${desk}${laptop}${person(210,128,'#7c3aed',true)}<line x1="228" y1="172" x2="270" y2="204" stroke="#7c3aed" stroke-width="8" stroke-linecap="round"/>`; break;
+    case 'm1': s+=`${table}${person(155,105,'#2563eb')}${person(245,92,'#16a34a')}${person(345,108,'#db2777',true)}<rect x="240" y="205" width="56" height="28" fill="#fff" stroke="#94a3b8"/>`; break;
+    case 'm2': s+=`${person(190,118,'#2563eb')}${person(315,118,'#16a34a',true)}<rect x="245" y="165" width="65" height="45" rx="6" fill="#0f172a"/><rect x="253" y="173" width="49" height="29" fill="#93c5fd"/><line x1="208" y1="165" x2="248" y2="185" stroke="#2563eb" stroke-width="8"/><line x1="297" y1="165" x2="308" y2="188" stroke="#16a34a" stroke-width="8"/>`; break;
+    case 'm3': s+=`${table}${person(155,105,'#0ea5e9')}${person(305,116,'#16a34a')}${person(385,116,'#db2777')}<rect x="180" y="180" width="75" height="20" rx="10" fill="#fff" stroke="#94a3b8"/><line x1="173" y1="158" x2="215" y2="188" stroke="#0ea5e9" stroke-width="8"/>`; break;
+    case 'm4': s+=`${person(170,112,'#f97316')}${person(330,112,'#0f766e')}<rect x="215" y="172" width="90" height="58" fill="#f59e0b" stroke="#92400e" stroke-width="3"/><line x1="188" y1="160" x2="218" y2="190" stroke="#f97316" stroke-width="8"/><line x1="312" y1="160" x2="302" y2="190" stroke="#0f766e" stroke-width="8"/>`; break;
+    case 'm5': s+=`<rect x="330" y="142" width="100" height="100" rx="10" fill="#8b5e34"/><rect x="340" y="130" width="80" height="24" rx="6" fill="#dbeafe"/>${person(105,130,'#2563eb')}${person(185,130,'#16a34a')}${person(265,130,'#db2777')}<line x1="90" y1="248" x2="300" y2="248" stroke="#64748b" stroke-width="6"/>`; break;
+    case 'o1': s+=`<rect x="110" y="170" width="300" height="8" fill="#64748b"/><rect x="125" y="145" width="8" height="80" fill="#64748b"/><rect x="225" y="145" width="8" height="80" fill="#64748b"/><rect x="325" y="145" width="8" height="80" fill="#64748b"/><circle cx="190" cy="230" r="30" fill="none" stroke="#0f172a" stroke-width="8"/><circle cx="285" cy="230" r="30" fill="none" stroke="#0f172a" stroke-width="8"/><path d="M190 230 L230 185 L285 230 L235 230 Z" fill="none" stroke="#2563eb" stroke-width="8"/>`; break;
+    case 'o2': s+=`${shelf}<circle cx="150" cy="135" r="18" fill="#60a5fa"/><circle cx="210" cy="135" r="18" fill="#f97316"/><circle cx="270" cy="135" r="18" fill="#22c55e"/><circle cx="330" cy="135" r="18" fill="#a855f7"/><rect x="140" y="115" width="22" height="34" rx="6" fill="#60a5fa"/><rect x="200" y="115" width="22" height="34" rx="6" fill="#f97316"/><rect x="260" y="115" width="22" height="34" rx="6" fill="#22c55e"/><rect x="320" y="115" width="22" height="34" rx="6" fill="#a855f7"/>`; break;
+    case 'o3': s+=`<rect x="330" y="90" width="90" height="166" fill="#f8fafc" stroke="#94a3b8" stroke-width="5"/><circle cx="405" cy="178" r="5" fill="#334155"/><rect x="170" y="190" width="88" height="75" rx="12" fill="#2563eb"/><path d="M195 190 q18 -28 38 0" fill="none" stroke="#0f172a" stroke-width="7"/>`; break;
+    case 'o4': s+=`<rect x="115" y="230" width="290" height="22" rx="6" fill="#8b5e34"/><rect x="140" y="252" width="14" height="45" fill="#6b4423"/><rect x="370" y="252" width="14" height="45" fill="#6b4423"/><rect x="185" y="205" width="85" height="16" rx="8" fill="#64748b"/><circle cx="280" cy="210" r="15" fill="#475569"/><rect x="295" y="194" width="70" height="14" rx="7" fill="#f97316"/>`; break;
+    case 'o5': s+=`<rect x="70" y="80" width="370" height="170" fill="#f1f5f9" stroke="#cbd5e1"/><rect x="105" y="220" width="50" height="42" fill="#92400e"/><ellipse cx="130" cy="205" rx="42" ry="20" fill="#22c55e"/><rect x="215" y="220" width="50" height="42" fill="#92400e"/><ellipse cx="240" cy="205" rx="42" ry="20" fill="#16a34a"/><rect x="325" y="220" width="50" height="42" fill="#92400e"/><ellipse cx="350" cy="205" rx="42" ry="20" fill="#22c55e"/>`; break;
+    case 'w1': s+=`${desk}${laptop}${person(215,126,'#2563eb')}<path d="M205 125 q-28 -8 -32 18" fill="none" stroke="#0f172a" stroke-width="5"/><circle cx="173" cy="145" r="8" fill="#0f172a"/><line x1="230" y1="150" x2="250" y2="158" stroke="#0f172a" stroke-width="5"/>`; break;
+    case 'w2': s+=`${shelf}<rect x="130" y="112" width="42" height="38" fill="#60a5fa"/><rect x="205" y="112" width="42" height="38" fill="#f97316"/><rect x="280" y="112" width="42" height="38" fill="#22c55e"/><rect x="130" y="188" width="42" height="38" fill="#a855f7"/><rect x="205" y="188" width="42" height="38" fill="#ef4444"/><rect x="280" y="188" width="42" height="38" fill="#14b8a6"/>`; break;
+    case 'w3': s+=`<rect x="300" y="85" width="140" height="110" fill="#fff" stroke="#94a3b8" stroke-width="5"/><polyline points="320,170 350,145 375,155 420,115" fill="none" stroke="#2563eb" stroke-width="8"/>${person(180,118,'#16a34a')}<line x1="198" y1="160" x2="330" y2="135" stroke="#16a34a" stroke-width="8" stroke-linecap="round"/>`; break;
+    case 'w4': s+=`<rect x="95" y="205" width="330" height="38" rx="8" fill="#8b5e34"/>${person(185,115,'#2563eb')}${person(350,120,'#db2777',true)}<line x1="205" y1="160" x2="320" y2="166" stroke="#2563eb" stroke-width="8"/><rect x="262" y="156" width="18" height="10" rx="3" fill="#fbbf24"/>`; break;
+    case 'w5': s+=`<rect x="285" y="160" width="105" height="80" rx="10" fill="#94a3b8"/><rect x="305" y="135" width="65" height="35" fill="#fff" stroke="#64748b"/><rect x="150" y="190" width="90" height="12" fill="#dbeafe" stroke="#94a3b8"/><rect x="150" y="204" width="90" height="12" fill="#bfdbfe" stroke="#94a3b8"/><rect x="150" y="218" width="90" height="12" fill="#dbeafe" stroke="#94a3b8"/>`; break;
+    case 't1': s+=`<rect x="0" y="250" width="520" height="90" fill="#94a3b8"/><rect x="80" y="265" width="360" height="10" fill="#f8fafc"/><rect x="120" y="150" width="270" height="95" rx="12" fill="#2563eb"/><rect x="145" y="165" width="55" height="35" fill="#bfdbfe"/><rect x="220" y="165" width="55" height="35" fill="#bfdbfe"/><rect x="295" y="165" width="55" height="35" fill="#bfdbfe"/><circle cx="170" cy="250" r="22" fill="#0f172a"/><circle cx="340" cy="250" r="22" fill="#0f172a"/>`; break;
+    case 't2': s+=`<rect x="0" y="248" width="520" height="92" fill="#bbf7d0"/>${person(195,112,'#f97316')}<rect x="183" y="88" width="25" height="13" fill="#facc15"/><circle cx="320" cy="235" r="28" fill="none" stroke="#0f172a" stroke-width="8"/><path d="M250 190 L330 220 L292 244 Z" fill="#94a3b8"/><line x1="215" y1="160" x2="260" y2="198" stroke="#f97316" stroke-width="8"/>`; break;
+    case 't3': s+=`<rect x="340" y="70" width="80" height="180" fill="#cbd5e1"/><line x1="210" y1="255" x2="365" y2="90" stroke="#d97706" stroke-width="12" stroke-linecap="round"/><line x1="235" y1="228" x2="272" y2="228" stroke="#d97706" stroke-width="8"/><line x1="260" y1="202" x2="300" y2="202" stroke="#d97706" stroke-width="8"/><line x1="286" y1="174" x2="326" y2="174" stroke="#d97706" stroke-width="8"/>`; break;
+    case 't4': s+=`${truck}<rect x="105" y="205" width="48" height="38" fill="#f59e0b" stroke="#92400e" stroke-width="3"/><rect x="158" y="205" width="48" height="38" fill="#fbbf24" stroke="#92400e" stroke-width="3"/><rect x="212" y="205" width="48" height="38" fill="#d97706" stroke="#92400e" stroke-width="3"/>`; break;
+    case 't5': s+=`<rect x="0" y="220" width="520" height="120" fill="#93c5fd"/><rect x="60" y="185" width="170" height="24" fill="#8b5e34"/><rect x="80" y="209" width="14" height="80" fill="#6b4423"/><path d="M265 220 q75 45 160 0 q-22 65 -135 58 q-40 -10 -25 -58" fill="#f97316" stroke="#92400e" stroke-width="4"/><line x1="260" y1="224" x2="225" y2="198" stroke="#334155" stroke-width="5"/>`; break;
+    default: s+=`${person(220,120,'#2563eb')}${desk}`;
+  }
+  return s + end;
+}
+
+
+function normalizeCaptionText(text){
+  return String(text||'').replace(/[.]+$/,'').trim();
+}
+function parseCaptionParts(caption){
+  const raw = normalizeCaptionText(caption);
+  const auxMatch = raw.match(/\b(is|are)\b/i);
+  if(!auxMatch){return {subject:raw, action:'', object:'', adverbial:''};}
+  const idx = auxMatch.index;
+  const subject = raw.slice(0, idx).trim();
+  let rest = raw.slice(idx + auxMatch[0].length).trim();
+  const words = rest.split(/\s+/).filter(Boolean);
+  const prepWords = ['in','on','at','by','beside','near','around','under','over','onto','to','against','across','inside','outside','with','for','from','into','off'];
+  let actionCount = 1;
+  if(words[0] === 'being' && words.length > 1) actionCount = 2;
+  else if(words.length > 1 && prepWords.includes(words[1].toLowerCase())) actionCount = 2;
+  let action = words.slice(0, actionCount).join(' ');
+  let remaining = words.slice(actionCount);
+  let splitAt = remaining.findIndex(w => prepWords.includes(w.toLowerCase()));
+  let object = '';
+  let adverbial = '';
+  if(splitAt === -1){
+    object = remaining.join(' ');
+  } else {
+    object = remaining.slice(0, splitAt).join(' ');
+    adverbial = remaining.slice(splitAt).join(' ');
+  }
+  if(action.toLowerCase()==='waiting in' && object.toLowerCase()==='line'){ action='waiting'; object='in line'; }
+  if(action.toLowerCase()==='looking at' && object){ action='looking at'; }
+  return {subject, action, object, adverbial};
+}
+function sceneGroup(scene){
+  if(scene.startsWith('ex-one-person') || /^p\d+$/.test(scene)) return 'one-person';
+  if(scene.startsWith('ex-many-people') || /^m\d+$/.test(scene)) return 'many-people';
+  if(scene.startsWith('ex-object') || /^o\d+$/.test(scene)) return 'object';
+  if(scene.startsWith('ex-workplace') || /^w\d+$/.test(scene)) return 'workplace';
+  if(scene.startsWith('ex-outdoor') || /^t\d+$/.test(scene)) return 'outdoor';
+  return 'one-person';
+}
 const annotationLayouts = {
   'one-person': [
-    {key:'subject', title:'Đối tượng chính', bx:18, by:16, ax:170, ay:128},
+    {key:'subject', title:'Đối tượng chính', bx:18, by:16, ax:205, ay:142},
     {key:'action', title:'Hành động', bx:312, by:18, ax:252, ay:170},
     {key:'object', title:'Tân ngữ', bx:300, by:116, ax:314, ay:202},
     {key:'adverbial', title:'Trạng ngữ', bx:18, by:274, ax:245, ay:240}
@@ -501,116 +577,120 @@ function renderAnnotatedFrame(scene, caption, key, mode='normal'){
 
 const photoAnnotations = {
   photo1: [
-    {title:'Đối tượng chính', value:'A woman', bx:18, by:18, ax:550, ay:390},
-    {title:'Hành động', value:'is talking', bx:720, by:24, ax:455, ay:402},
-    {title:'Tân ngữ', value:'on the phone', bx:700, by:130, ax:455, ay:450},
-    {title:'Trạng ngữ', value:'at a desk', bx:24, by:890, ax:510, ay:840}
+    {title:'Đối tượng chính', value:'A woman'},
+    {title:'Hành động', value:'is talking'},
+    {title:'Tân ngữ', value:'on the phone'},
+    {title:'Trạng ngữ', value:'at a desk'}
   ],
   photo2: [
-    {title:'Đối tượng chính', value:'A woman', bx:18, by:18, ax:250, ay:530},
-    {title:'Hành động', value:'is placing', bx:720, by:22, ax:650, ay:300},
-    {title:'Tân ngữ', value:'folded towels', bx:650, by:130, ax:860, ay:180},
-    {title:'Trạng ngữ', value:'on top of a cabinet', bx:20, by:890, ax:790, ay:660}
+    {title:'Đối tượng chính', value:'A woman'},
+    {title:'Hành động', value:'is placing'},
+    {title:'Tân ngữ', value:'folded towels'},
+    {title:'Trạng ngữ', value:'on top of a cabinet'}
   ],
   photo3: [
-    {title:'Đối tượng chính', value:'A man', bx:18, by:18, ax:310, ay:300},
-    {title:'Hành động', value:'is using', bx:725, by:24, ax:410, ay:560},
-    {title:'Tân ngữ', value:'a shovel', bx:705, by:134, ax:455, ay:680},
-    {title:'Trạng ngữ', value:'beside a house', bx:18, by:890, ax:850, ay:330}
+    {title:'Đối tượng chính', value:'A man'},
+    {title:'Hành động', value:'is using'},
+    {title:'Tân ngữ', value:'a shovel'},
+    {title:'Trạng ngữ', value:'beside a house'}
   ],
   photo4: [
-    {title:'Đối tượng chính', value:'A woman', bx:18, by:18, ax:520, ay:400},
-    {title:'Hành động', value:'is reaching', bx:720, by:24, ax:650, ay:230},
-    {title:'Tân ngữ', value:'for a book', bx:680, by:140, ax:760, ay:210},
-    {title:'Trạng ngữ', value:'on a shelf', bx:24, by:890, ax:765, ay:210}
+    {title:'Đối tượng chính', value:'A woman'},
+    {title:'Hành động', value:'is reaching'},
+    {title:'Tân ngữ', value:'for a book'},
+    {title:'Trạng ngữ', value:'on a shelf'}
   ],
   photo5: [
-    {title:'Đối tượng chính', value:'A woman', bx:18, by:18, ax:450, ay:520},
-    {title:'Hành động', value:'is talking', bx:715, by:24, ax:392, ay:372},
-    {title:'Tân ngữ', value:'on a phone', bx:700, by:136, ax:388, ay:330},
-    {title:'Trạng ngữ', value:'on a bench', bx:22, by:890, ax:760, ay:710}
+    {title:'Đối tượng chính', value:'A woman'},
+    {title:'Hành động', value:'is talking'},
+    {title:'Tân ngữ', value:'on a phone'},
+    {title:'Trạng ngữ', value:'on a bench'}
   ],
   photo6: [
-    {title:'Đối tượng chính', value:'Several businesspeople', bx:18, by:18, ax:480, ay:360},
-    {title:'Hành động', value:'are gathered', bx:18, by:92, ax:505, ay:430},
-    {title:'Tân ngữ', value:'around a laptop', bx:18, by:166, ax:500, ay:710},
-    {title:'Trạng ngữ', value:'in the office', bx:18, by:240, ax:500, ay:710}
+    {title:'Đối tượng chính', value:'Several businesspeople'},
+    {title:'Hành động', value:'are gathered'},
+    {title:'Tân ngữ', value:'around a laptop'},
+    {title:'Trạng ngữ', value:'in the office'}
   ],
   photo7: [
-    {title:'Đối tượng chính', value:'A clerk', bx:18, by:18, ax:760, ay:350},
-    {title:'Hành động', value:'is handing', bx:18, by:92, ax:610, ay:440},
-    {title:'Tân ngữ', value:'a garment', bx:18, by:166, ax:520, ay:520},
-    {title:'Trạng ngữ', value:'across a counter', bx:18, by:240, ax:510, ay:690}
+    {title:'Đối tượng chính', value:'A clerk'},
+    {title:'Hành động', value:'is handing'},
+    {title:'Tân ngữ', value:'a garment'},
+    {title:'Trạng ngữ', value:'across a counter'}
   ],
   photo8: [
-    {title:'Đối tượng chính', value:'Two women', bx:18, by:18, ax:500, ay:360},
-    {title:'Hành động', value:'are sitting', bx:18, by:92, ax:500, ay:560},
-    {title:'Trạng ngữ', value:'at a table', bx:18, by:240, ax:500, ay:830}
+    {title:'Đối tượng chính', value:'Two women'},
+    {title:'Hành động', value:'are sitting'},
+    {title:'Trạng ngữ', value:'at a table'}
   ],
   photo9: [
-    {title:'Đối tượng chính', value:'Three women', bx:18, by:18, ax:500, ay:430},
-    {title:'Hành động', value:'are reading', bx:18, by:92, ax:510, ay:650},
-    {title:'Tân ngữ', value:'books', bx:18, by:166, ax:480, ay:760},
-    {title:'Trạng ngữ', value:'at a table', bx:18, by:240, ax:500, ay:820}
+    {title:'Đối tượng chính', value:'Three women'},
+    {title:'Hành động', value:'are reading'},
+    {title:'Trạng ngữ', value:'at a table'}
   ],
   photo10: [
-    {title:'Đối tượng chính', value:'Two colleagues', bx:18, by:18, ax:480, ay:310},
-    {title:'Hành động', value:'are looking', bx:18, by:92, ax:500, ay:610},
-    {title:'Tân ngữ', value:'at a map', bx:18, by:166, ax:520, ay:780},
-    {title:'Trạng ngữ', value:'on a desk', bx:18, by:240, ax:520, ay:840}
+    {title:'Đối tượng chính', value:'Two colleagues'},
+    {title:'Hành động', value:'are looking'},
+    {title:'Tân ngữ', value:'at a map'},
+    {title:'Trạng ngữ', value:'on a desk'}
   ],
-  photo11: [
-    {title:'Đối tượng chính', value:'Tables and chairs', bx:18, by:18, ax:430, ay:620},
-    {title:'Hành động', value:'are arranged', bx:18, by:92, ax:430, ay:620},
-    {title:'Trạng ngữ', value:'under umbrellas by the water', bx:18, by:166, ax:500, ay:390}
+  scene1: [
+    {title:'Đối tượng chính', value:'Tables and chairs'},
+    {title:'Hành động', value:'are arranged'},
+    {title:'Trạng ngữ', value:'under umbrellas by the water'}
   ],
-  photo12: [
-    {title:'Đối tượng chính', value:'An airplane', bx:18, by:18, ax:560, ay:390},
-    {title:'Hành động', value:'is parked', bx:18, by:92, ax:610, ay:530},
-    {title:'Trạng ngữ', value:'at an airport gate', bx:18, by:166, ax:810, ay:520}
+  scene2: [
+    {title:'Đối tượng chính', value:'An airplane'},
+    {title:'Hành động', value:'is parked'},
+    {title:'Trạng ngữ', value:'at an airport gate'}
   ],
-  photo13: [
-    {title:'Đối tượng chính', value:'Several cars', bx:18, by:18, ax:455, ay:470},
-    {title:'Hành động', value:'are being transported', bx:18, by:92, ax:420, ay:560},
-    {title:'Trạng ngữ', value:'on a truck', bx:18, by:166, ax:360, ay:650}
+  scene3: [
+    {title:'Đối tượng chính', value:'Cars'},
+    {title:'Hành động', value:'are being transported'},
+    {title:'Trạng ngữ', value:'on a truck'}
   ],
-  photo14: [
-    {title:'Đối tượng chính', value:'Rows of seats', bx:18, by:18, ax:470, ay:760},
-    {title:'Hành động', value:'are facing', bx:18, by:92, ax:500, ay:540},
-    {title:'Tân ngữ', value:'a large screen', bx:18, by:166, ax:505, ay:370},
-    {title:'Trạng ngữ', value:'in a theater', bx:18, by:240, ax:500, ay:710}
+  scene4: [
+    {title:'Đối tượng chính', value:'Rows of seats'},
+    {title:'Hành động', value:'are facing'},
+    {title:'Tân ngữ', value:'a large screen'},
+    {title:'Trạng ngữ', value:'in a theater'}
   ],
-  photo15: [
-    {title:'Đối tượng chính', value:'Several boats', bx:18, by:18, ax:510, ay:750},
-    {title:'Hành động', value:'are floating', bx:18, by:92, ax:510, ay:750},
-    {title:'Trạng ngữ', value:'near waterfront buildings', bx:18, by:166, ax:650, ay:520}
+  scene5: [
+    {title:'Đối tượng chính', value:'A rake and a bag'},
+    {title:'Hành động', value:'are placed'},
+    {title:'Trạng ngữ', value:'beside a table in a garden'}
   ],
-  photo16: [
-    {title:'Đối tượng chính', value:'Cars', bx:18, by:18, ax:500, ay:800},
-    {title:'Hành động', value:'are parked', bx:18, by:92, ax:500, ay:800},
-    {title:'Trạng ngữ', value:'around a large courtyard', bx:18, by:166, ax:500, ay:540}
+  scene6: [
+    {title:'Đối tượng chính', value:'Boats'},
+    {title:'Hành động', value:'are floating'},
+    {title:'Trạng ngữ', value:'near waterfront buildings'}
   ],
-  photo17: [
-    {title:'Đối tượng chính', value:'Many boats', bx:18, by:18, ax:520, ay:670},
-    {title:'Hành động', value:'are docked', bx:18, by:92, ax:520, ay:670},
-    {title:'Trạng ngữ', value:'in a harbor near rocky hills', bx:18, by:166, ax:340, ay:420}
+  scene7: [
+    {title:'Đối tượng chính', value:'Cars'},
+    {title:'Hành động', value:'are parked'},
+    {title:'Trạng ngữ', value:'around a large courtyard'}
   ],
-  photo18: [
-    {title:'Đối tượng chính', value:'A chair and a small table', bx:18, by:18, ax:210, ay:690},
-    {title:'Hành động', value:'are placed', bx:18, by:92, ax:350, ay:720},
-    {title:'Trạng ngữ', value:'near a dresser', bx:18, by:166, ax:540, ay:630}
+  scene8: [
+    {title:'Đối tượng chính', value:'Many boats'},
+    {title:'Hành động', value:'are docked'},
+    {title:'Trạng ngữ', value:'in a harbor near rocky hills'}
   ],
-  photo19: [
-    {title:'Đối tượng chính', value:'Mugs and containers', bx:18, by:18, ax:520, ay:260},
-    {title:'Hành động', value:'are arranged', bx:18, by:92, ax:520, ay:260},
-    {title:'Trạng ngữ', value:'on shelves above a counter', bx:18, by:166, ax:520, ay:430}
+  scene9: [
+    {title:'Đối tượng chính', value:'A chair and a small table'},
+    {title:'Hành động', value:'are placed'},
+    {title:'Trạng ngữ', value:'near a dresser'}
+  ],
+  scene10: [
+    {title:'Đối tượng chính', value:'Mugs and containers'},
+    {title:'Hành động', value:'are arranged'},
+    {title:'Trạng ngữ', value:'on shelves above a counter'}
   ]
 };
 
 function practiceBoxGroup(item, index){
   const top = 18 + index * 74;
   const left = 18;
-  const bw = 300;
+  const bw = 340;
   const bh = 58;
   const labelMap = {
     'Đối tượng chính':'S',
@@ -619,7 +699,7 @@ function practiceBoxGroup(item, index){
     'Trạng ngữ':'ADV'
   };
   const title = labelMap[item.title] || item.title;
-  const value = fitText(item.value, 30);
+  const value = fitText(item.value, 34);
   return `<g class="annotation-step reveal">
     <rect class="annotation-note-box" x="${left}" y="${top}" width="${bw}" height="${bh}" />
     <text class="annotation-note-title" x="${left+14}" y="${top+22}">${escapeHtml(title)}</text>
@@ -629,9 +709,7 @@ function practiceBoxGroup(item, index){
 function renderPracticePhotoOverlay(photoId){
   const source = photoAnnotations[photoId] || [];
   const order = ['Đối tượng chính','Hành động','Tân ngữ','Trạng ngữ'];
-  const items = order
-    .map(title => source.find(x => x.title === title))
-    .filter(Boolean);
+  const items = order.map(title => source.find(x => x.title === title)).filter(Boolean);
   const boxes = items.map((item, index)=>practiceBoxGroup(item, index)).join('');
   return `<svg class="annotation-overlay photo-overlay" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">${boxes}</svg>`;
 }
@@ -672,7 +750,7 @@ partTypes.forEach(t=>{
   slides.push({kind:'example', label:`TYPE ${t.no} · VÍ DỤ`, title:`Ví dụ phân tích: ${t.short}`, pageTitle:`Example ${t.no}`, html:`<div class="content-area"><div class="photo-layout"><div class="reveal show">${renderAnnotatedFrame(t.example.scene, t.example.caption, 'example-'+t.no)}</div><div class="sample-box reveal"><div class="sample-title">Nghe/chọn câu mô tả đúng</div><div class="question">Bức ảnh mô tả điều gì?</div>${t.example.options.map(o=>`<div class="answer"><b>${o[0]}.</b> ${o[1]}<span class="option-vn">${o[2]}</span></div>`).join('')}</div></div><div class="method-box reveal"><h3>Phân tích</h3><ul class="steps">${t.example.analysis.map(a=>`<li>${a}</li>`).join('')}<li><span class="answer-key">Đáp án đúng: ${t.example.answer}</span></li></ul></div></div>`});
   quizData.filter(q=>q.type===t.type).forEach((q,i)=>slides.push({kind:'quiz', label:`TYPE ${t.no} · PRACTICE`, title:`${t.short} · Câu ${i+1}/5`, pageTitle:`Q${slides.length}`, data:q}));
 });
-slides.push({kind:'summary', label:'TỔNG KẾT', title:'Tổng kết Part 1 Photos', pageTitle:'Summary', html:`<div class="content-area"><div class="intro-box"><h3>Checklist khi làm TOEIC Part 1</h3><ul class="steps"><li>Có người → nghe hành động đang diễn ra.</li><li>Nhiều người → nghe hành động chung và vị trí tương đối.</li><li>Không có người → nghe vị trí/trạng thái cảnh vật.</li><li>Văn phòng/cửa hàng → nghe đồ vật nghề nghiệp và hành động nhỏ.</li><li>Cảnh trong/ngoài trời → phân biệt arranged/located/parked/docked/being transported.</li></ul></div><div class="score-box reveal"><div class="score-pill" id="scorePill">Điểm Practice: đang tính...</div><div class="score-pill">25 câu luyện tập</div></div></div>`});
+slides.push({kind:'summary', label:'TỔNG KẾT', title:'Tổng kết Part 1 Photos', pageTitle:'Summary', html:`<div class="content-area"><div class="intro-box"><h3>Checklist khi làm TOEIC Part 1</h3><ul class="steps"><li>Có người → nghe hành động đang diễn ra.</li><li>Nhiều người → nghe hành động chung và vị trí tương đối.</li><li>Không có người → nghe vị trí/trạng thái cảnh vật.</li><li>Cảnh vật → phân biệt arranged/placed/parked/docked/located/being transported.</li><li>Không ép đủ O/ADV nếu câu không có.</li></ul></div><div class="score-box reveal"><div class="score-pill" id="scorePill">Điểm Practice: đang tính...</div><div class="score-pill">25 câu luyện tập</div></div></div>`});
 
 let currentSlide=0;
 const checkedState = {};
