@@ -50,6 +50,57 @@ body{overflow-x:hidden}.lesson-wrapper{width:100%;min-height:100vh;position:rela
 .inline-audio-btn:hover{transform:translateY(-3px)}
 .photo-caption,.photo-caption-mask,.caption-meta,.caption-sentence{display:none!important}
 
+
+/* ===== FIX v6: Practice layout từ trên xuống ===== */
+.quiz-slide .photo-layout{
+  display:flex!important;
+  flex-direction:column!important;
+  gap:22px!important;
+  align-items:stretch!important;
+}
+.quiz-slide .photo-frame{
+  width:min(720px,100%)!important;
+  margin:0 auto!important;
+}
+.quiz-slide .practice-side{
+  width:100%!important;
+  max-width:980px!important;
+  margin:0 auto!important;
+}
+.quiz-slide .sample-box{
+  width:100%!important;
+  display:block!important;
+}
+.quiz-slide .question{
+  display:flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  flex-wrap:wrap!important;
+}
+.quiz-slide .option{
+  display:flex!important;
+}
+.option-text.option-blur{
+  filter:blur(6px);
+  opacity:.62;
+  user-select:none;
+  transition:filter .22s ease, opacity .22s ease;
+}
+.quiz-slide.answer-checked .option-text.option-blur{
+  filter:none;
+  opacity:1;
+  user-select:auto;
+}
+.inline-audio-btn{
+  display:inline-grid!important;
+  vertical-align:middle;
+  margin-left:8px;
+  transform:none!important;
+}
+.photo-caption,.photo-caption-mask,.caption-meta,.caption-sentence{
+  display:none!important;
+}
+
 </style>
 </head>
 <body>
@@ -584,12 +635,74 @@ function audioPathForQuestion(q){
 
 function renderSlides(){
   const mount=document.getElementById('slideMount');
+
   mount.innerHTML = slides.map((s,idx)=>{
     if(s.kind==='quiz'){
       const q=s.data;
-      return `<section class="slide quiz-slide" data-index="${idx}"><span class="slide-label">${escapeHtml(s.label)}</span><h2>${escapeHtml(s.title)}</h2><div class="content-area"><div class="photo-layout"><div class="reveal show">${q.image ? renderCustomPhotoFrame(q.image, q.caption, 'quiz-'+idx, q.photoId) : renderAnnotatedFrame(q.scene, q.caption, 'quiz-'+idx)}</div><div><div class="sample-box reveal show"><div class="sample-title">Part 1 Practice <span class="audio-note">Luyện bằng chữ trước khi nghe audio</span></div><div class="question">Which sentence best describes the photo? <button type="button" class="audio-btn inline-audio-btn" onclick="playPhotoAudio(audioPathForQuestion(q), this)" aria-label="Play audio">🔊</button></div>${q.options.map(o=>`<label class="option"><input type="radio" name="q${idx}" value="${o[0]}"><span class="option-letter">${o[0]}.</span><span class="option-text option-blur">${escapeHtml(o[1])}<span class="option-vn">${escapeHtml(o[2])}</span></span></label>`).join('')}</div><div class="method-box result-box" id="result-${idx}"><h3 class="result-title"></h3><p class="explain"></p></div><div class="translation-box" id="trans-${idx}"><h3>Dịch nhanh đáp án</h3>${q.options.map(o=>`<div class="translation-item"><span class="letter">${o[0]}.</span><b>${escapeHtml(o[1])}</b><br>${escapeHtml(o[2])}</div>`).join('')}</div></div></div></div></section>`;
+      const photoHtml = q.image
+        ? renderCustomPhotoFrame(q.image, q.caption, 'quiz-'+idx, q.photoId)
+        : renderAnnotatedFrame(q.scene, q.caption, 'quiz-'+idx);
+
+      const optionsHtml = q.options.map(o=>`
+        <label class="option">
+          <input type="radio" name="q${idx}" value="${o[0]}">
+          <span class="option-letter">${o[0]}.</span>
+          <span class="option-text option-blur">
+            ${escapeHtml(o[1])}
+            <span class="option-vn">${escapeHtml(o[2])}</span>
+          </span>
+        </label>
+      `).join('');
+
+      const translationHtml = q.options.map(o=>`
+        <div class="translation-item">
+          <span class="letter">${o[0]}.</span>
+          <b>${escapeHtml(o[1])}</b><br>${escapeHtml(o[2])}
+        </div>
+      `).join('');
+
+      return `<section class="slide quiz-slide" data-index="${idx}">
+        <span class="slide-label">${escapeHtml(s.label)}</span>
+        <h2>${escapeHtml(s.title)}</h2>
+
+        <div class="content-area">
+          <div class="photo-layout">
+            <div class="reveal show">${photoHtml}</div>
+
+            <div class="practice-side">
+              <div class="sample-box reveal show">
+                <div class="sample-title">
+                  Part 1 Practice <span class="audio-note">Luyện bằng chữ trước khi nghe audio</span>
+                </div>
+
+                <div class="question">
+                  <span>Which sentence best describes the photo?</span>
+                  <button type="button" class="audio-btn inline-audio-btn" onclick="playPhotoAudio(audioPathForQuestion(slides[currentSlide].data), this)" aria-label="Play audio">🔊</button>
+                </div>
+
+                ${optionsHtml}
+              </div>
+
+              <div class="method-box result-box" id="result-${idx}">
+                <h3 class="result-title"></h3>
+                <p class="explain"></p>
+              </div>
+
+              <div class="translation-box" id="trans-${idx}">
+                <h3>Dịch nhanh đáp án</h3>
+                ${translationHtml}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>`;
     }
-    return `<section class="slide" data-index="${idx}"><span class="slide-label">${escapeHtml(s.label)}</span><h1>${escapeHtml(s.title)}</h1>${s.html}</section>`;
+
+    return `<section class="slide" data-index="${idx}">
+      <span class="slide-label">${escapeHtml(s.label)}</span>
+      <h1>${escapeHtml(s.title)}</h1>
+      ${s.html}
+    </section>`;
   }).join('');
 }
 
