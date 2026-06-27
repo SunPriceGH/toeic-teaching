@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TOEIC Practice</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{
+  width:100%;
+  min-height:100%;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#eef4ff;
+  color:#0f172a;
+}
+body{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:32px;
+  background:
+    radial-gradient(circle at top left,rgba(59,130,246,.14),transparent 36%),
+    radial-gradient(circle at bottom right,rgba(14,165,233,.14),transparent 36%),
+    #eef4ff;
+}
+.home-card{
+  width:min(760px,100%);
+  background:#fff;
+  border:2px solid #dbeafe;
+  border-radius:28px;
+  padding:38px;
+  box-shadow:0 24px 60px rgba(15,23,42,.14);
+}
+.badge{
+  display:inline-flex;
+  align-items:center;
+  padding:8px 15px;
+  border-radius:999px;
+  background:#dbeafe;
+  color:#1d4ed8;
+  font-weight:900;
+  font-size:15px;
+  margin-bottom:18px;
+}
+h1{
+  font-size:44px;
+  line-height:1.15;
+  margin-bottom:14px;
+}
+p{
+  font-size:21px;
+  line-height:1.55;
+  color:#475569;
+  margin-bottom:24px;
+}
+.lesson-link{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  text-decoration:none;
+  color:#0f172a;
+  background:#f8fafc;
+  border:2px solid #dbeafe;
+  border-radius:22px;
+  padding:22px 24px;
+  transition:.2s ease;
+}
+.lesson-link:hover{
+  transform:translateY(-2px);
+  border-color:#93c5fd;
+  background:#eff6ff;
+}
+.lesson-title{
+  font-size:25px;
+  font-weight:1000;
+  color:#1e3a8a;
+  margin-bottom:6px;
+}
+.lesson-desc{
+  font-size:17px;
+  color:#64748b;
+  font-weight:700;
+}
+.start-btn{
+  flex:0 0 auto;
+  border:none;
+  border-radius:999px;
+  background:#2563eb;
+  color:#fff;
+  padding:13px 20px;
+  font-size:15px;
+  font-weight:1000;
+  box-shadow:0 10px 22px rgba(37,99,235,.22);
+}
+@media(max-width:640px){
+  body{padding:18px}
+  .home-card{padding:24px;border-radius:22px}
+  h1{font-size:32px}
+  p{font-size:18px}
+  .lesson-link{align-items:flex-start;flex-direction:column}
+  .start-btn{width:100%}
+}
+</style>
+</head>
+<body>
+  <main class="home-card">
+    <div class="badge">TOEIC LISTENING</div>
+    <h1>TOEIC Practice</h1>
+    <p>Chọn bài học bên dưới để bắt đầu luyện tập.</p>
+
+    <a class="lesson-link" href="part1_photos_lesson_practice_AUDIO_BUTTON_ONLY_v5.html">
+      <div>
+        <div class="lesson-title">Part 1: Photos</div>
+        <div class="lesson-desc">Bài học + Practice hình ảnh, có phân tích trực tiếp trên ảnh và audio.</div>
+      </div>
+      <button class="start-btn" type="button">Vào bài →</button>
+    </a>
+  </main>
+</body>
+</html>
