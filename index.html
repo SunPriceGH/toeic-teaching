@@ -12,15 +12,20 @@ body{display:grid;place-items:center;padding:32px}
 .badge{display:inline-block;background:#dbeafe;color:#1d4ed8;border-radius:999px;padding:8px 14px;font-weight:900;margin-bottom:16px}
 h1{font-size:42px;margin-bottom:12px}
 p{font-size:20px;line-height:1.5;color:#475569;margin-bottom:22px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
 a{display:inline-flex;text-decoration:none;background:#2563eb;color:#fff;border-radius:999px;padding:14px 22px;font-weight:1000}
+a.secondary{background:#0f766e}
 </style>
 </head>
 <body>
 <div class="card">
-  <div class="badge">TOEIC PART 1</div>
-  <h1>Photos Practice</h1>
-  <p>Bấm vào nút bên dưới để vào bài học.</p>
-  <a href="part1_photos_lesson_practice.html">Vào bài →</a>
+  <div class="badge">TOEIC TEACHING</div>
+  <h1>Lesson & Practice</h1>
+  <p>Chọn phần muốn học bên dưới.</p>
+  <div class="actions">
+    <a href="part1_photos_lesson_practice.html">Part 1 Photos →</a>
+    <a class="secondary" href="part7_reading_lesson_practice.html">Part 7 Reading →</a>
+  </div>
 </div>
 </body>
 </html>
