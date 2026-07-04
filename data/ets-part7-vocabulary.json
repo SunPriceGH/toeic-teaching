@@ -1,5 +1,1421 @@
 {
-  "6": {
+  "ets2023-test6": {
+    "label": "ETS 2023 Test 6",
+    "shortLabel": "23-T6",
+    "sections": [
+      {
+        "title": "147-148 - Mayor Lizette State of the City Address",
+        "rows": [
+          [
+            "State of the City address",
+            "bài phát biểu về tình hình thành phố"
+          ],
+          [
+            "deliver an address",
+            "trình bày một bài phát biểu"
+          ],
+          [
+            "City Hall",
+            "tòa thị chính"
+          ],
+          [
+            "open to the public",
+            "mở cửa cho công chúng"
+          ],
+          [
+            "seating is first come, first served",
+            "chỗ ngồi theo thứ tự đến trước được phục vụ trước"
+          ],
+          [
+            "reelected",
+            "được tái đắc cử"
+          ],
+          [
+            "second four-year term",
+            "nhiệm kỳ bốn năm thứ hai"
+          ],
+          [
+            "vision for the future",
+            "tầm nhìn cho tương lai"
+          ],
+          [
+            "on her agenda",
+            "nằm trong chương trình nghị sự của bà"
+          ],
+          [
+            "controversial application",
+            "đơn xin phép gây tranh cãi"
+          ],
+          [
+            "historic boulevard",
+            "đại lộ lịch sử"
+          ],
+          [
+            "question-and-answer period",
+            "phần hỏi đáp"
+          ]
+        ]
+      },
+      {
+        "title": "149-150 - Corozal Digital Anniversary Invitation",
+        "rows": [
+          [
+            "You're invited",
+            "Bạn được mời"
+          ],
+          [
+            "tenth anniversary",
+            "kỷ niệm mười năm"
+          ],
+          [
+            "celebrate your hard work and dedication",
+            "ăn mừng sự chăm chỉ và tận tụy của bạn"
+          ],
+          [
+            "milestone",
+            "cột mốc quan trọng"
+          ],
+          [
+            "appetizers",
+            "món khai vị"
+          ],
+          [
+            "RSVP by",
+            "vui lòng phản hồi trước"
+          ],
+          [
+            "intended for",
+            "dành cho"
+          ],
+          [
+            "clients",
+            "khách hàng"
+          ],
+          [
+            "employees",
+            "nhân viên"
+          ],
+          [
+            "patrons",
+            "khách quen; khách hàng của cơ sở"
+          ]
+        ]
+      },
+      {
+        "title": "151-152 - First Street Cinema Classic Film Festival",
+        "rows": [
+          [
+            "classic film festival",
+            "liên hoan phim kinh điển"
+          ],
+          [
+            "celebrating its opening",
+            "ăn mừng dịp khai trương"
+          ],
+          [
+            "filmgoers",
+            "người đi xem phim"
+          ],
+          [
+            "free screenings",
+            "các suất chiếu miễn phí"
+          ],
+          [
+            "classic films",
+            "phim kinh điển"
+          ],
+          [
+            "seating is limited",
+            "chỗ ngồi có hạn"
+          ],
+          [
+            "reserve tickets",
+            "đặt vé trước"
+          ],
+          [
+            "not offered on-site",
+            "không được cung cấp tại chỗ"
+          ],
+          [
+            "mysterious farm",
+            "trang trại bí ẩn"
+          ],
+          [
+            "elite race",
+            "cuộc đua đẳng cấp cao"
+          ],
+          [
+            "overcoming adversity",
+            "vượt qua nghịch cảnh"
+          ],
+          [
+            "manuscript",
+            "bản thảo"
+          ],
+          [
+            "culprit",
+            "thủ phạm"
+          ],
+          [
+            "family reunion celebration",
+            "buổi họp mặt gia đình"
+          ],
+          [
+            "comical incidents and misunderstandings",
+            "những sự cố hài hước và hiểu lầm"
+          ]
+        ]
+      },
+      {
+        "title": "153-156 - Canomatik Online Chat Discussion",
+        "rows": [
+          [
+            "online chat discussion",
+            "cuộc thảo luận trực tuyến"
+          ],
+          [
+            "forum for users",
+            "diễn đàn dành cho người dùng"
+          ],
+          [
+            "can opener",
+            "dụng cụ mở hộp"
+          ],
+          [
+            "electric can opener",
+            "dụng cụ mở hộp chạy điện"
+          ],
+          [
+            "broke",
+            "bị hỏng"
+          ],
+          [
+            "worth the money",
+            "đáng số tiền bỏ ra"
+          ],
+          [
+            "struggle opening cans",
+            "vất vả khi mở hộp"
+          ],
+          [
+            "commercial version",
+            "phiên bản thương mại"
+          ],
+          [
+            "consumer version",
+            "phiên bản dành cho người tiêu dùng"
+          ],
+          [
+            "costs less",
+            "có giá thấp hơn"
+          ],
+          [
+            "defective",
+            "bị lỗi; khiếm khuyết"
+          ],
+          [
+            "customer service department",
+            "bộ phận dịch vụ khách hàng"
+          ],
+          [
+            "commercial-grade",
+            "cấp thương mại; loại chuyên dụng"
+          ],
+          [
+            "nearly a decade",
+            "gần một thập kỷ"
+          ],
+          [
+            "give it a try",
+            "thử dùng; mua thử"
+          ],
+          [
+            "food-service industry",
+            "ngành dịch vụ ăn uống"
+          ]
+        ]
+      },
+      {
+        "title": "157-158 - Lighting Store Text Message Chain",
+        "rows": [
+          [
+            "text-message chain",
+            "chuỗi tin nhắn"
+          ],
+          [
+            "showroom",
+            "phòng trưng bày"
+          ],
+          [
+            "part-time helper",
+            "người hỗ trợ bán thời gian"
+          ],
+          [
+            "distributor's warehouse",
+            "kho của nhà phân phối"
+          ],
+          [
+            "pendant lights",
+            "đèn thả trần"
+          ],
+          [
+            "latest client",
+            "khách hàng gần đây nhất"
+          ],
+          [
+            "large variety of styles",
+            "nhiều kiểu dáng đa dạng"
+          ],
+          [
+            "management was very specific",
+            "ban quản lý yêu cầu rất cụ thể"
+          ],
+          [
+            "design preference",
+            "sở thích/yêu cầu thiết kế"
+          ],
+          [
+            "purchase orders",
+            "đơn đặt mua hàng"
+          ],
+          [
+            "inventory spreadsheets",
+            "bảng tính hàng tồn kho"
+          ],
+          [
+            "caught up",
+            "bắt kịp việc; xử lý xong việc tồn"
+          ],
+          [
+            "short on any items",
+            "thiếu mặt hàng nào"
+          ]
+        ]
+      },
+      {
+        "title": "159-161 - Natural Spring Garden Products E-mail",
+        "rows": [
+          [
+            "recent purchase",
+            "giao dịch mua gần đây"
+          ],
+          [
+            "bird bath",
+            "bồn nước cho chim"
+          ],
+          [
+            "steady, cascading flow of water",
+            "dòng nước chảy đều theo tầng"
+          ],
+          [
+            "native birds",
+            "các loài chim bản địa"
+          ],
+          [
+            "cool, calming environment",
+            "môi trường mát mẻ, thư giãn"
+          ],
+          [
+            "order was placed",
+            "đơn hàng được đặt"
+          ],
+          [
+            "arrived",
+            "đã được giao đến"
+          ],
+          [
+            "thus far",
+            "cho đến nay"
+          ],
+          [
+            "covered by a three-year warranty",
+            "được bảo hành ba năm"
+          ],
+          [
+            "operation",
+            "việc vận hành; hoạt động"
+          ],
+          [
+            "reach out to",
+            "liên hệ với"
+          ],
+          [
+            "brief survey",
+            "khảo sát ngắn"
+          ],
+          [
+            "responses",
+            "các phản hồi"
+          ],
+          [
+            "market our products and services",
+            "tiếp thị sản phẩm và dịch vụ của chúng tôi"
+          ],
+          [
+            "provide feedback",
+            "đưa ra phản hồi"
+          ]
+        ]
+      },
+      {
+        "title": "162-164 - Home Style Clothing Line Article",
+        "rows": [
+          [
+            "clothing line debuts",
+            "dòng thời trang ra mắt"
+          ],
+          [
+            "handmade crafts",
+            "đồ thủ công làm bằng tay"
+          ],
+          [
+            "local designer",
+            "nhà thiết kế địa phương"
+          ],
+          [
+            "clothing brand",
+            "thương hiệu quần áo"
+          ],
+          [
+            "fabrics woven by area artisans",
+            "vải được dệt bởi nghệ nhân địa phương"
+          ],
+          [
+            "traditional practices",
+            "phương pháp truyền thống"
+          ],
+          [
+            "basic weaving techniques",
+            "kỹ thuật dệt cơ bản"
+          ],
+          [
+            "junior designer",
+            "nhà thiết kế cấp dưới"
+          ],
+          [
+            "returned to her hometown",
+            "trở về quê nhà"
+          ],
+          [
+            "found Home Style",
+            "thành lập Home Style"
+          ],
+          [
+            "debut collection",
+            "bộ sưu tập ra mắt"
+          ],
+          [
+            "hair accessories",
+            "phụ kiện tóc"
+          ],
+          [
+            "local craftspeople",
+            "thợ thủ công địa phương"
+          ],
+          [
+            "select stores",
+            "một số cửa hàng được chọn"
+          ],
+          [
+            "keep production local",
+            "giữ hoạt động sản xuất tại địa phương"
+          ],
+          [
+            "authentic",
+            "chân thực; đúng bản sắc"
+          ],
+          [
+            "broader goals",
+            "mục tiêu rộng lớn hơn"
+          ]
+        ]
+      },
+      {
+        "title": "165-167 - Brandmark Products Web Page",
+        "rows": [
+          [
+            "make your mark",
+            "tạo dấu ấn của bạn"
+          ],
+          [
+            "logo",
+            "biểu trưng"
+          ],
+          [
+            "advertise your organization",
+            "quảng bá tổ chức của bạn"
+          ],
+          [
+            "attractive fashion apparel",
+            "trang phục thời trang hấp dẫn"
+          ],
+          [
+            "company slogan",
+            "khẩu hiệu công ty"
+          ],
+          [
+            "adorn selected items",
+            "trang trí các mặt hàng được chọn"
+          ],
+          [
+            "within four business days",
+            "trong vòng bốn ngày làm việc"
+          ],
+          [
+            "color printing",
+            "in màu"
+          ],
+          [
+            "embroidery",
+            "thêu"
+          ],
+          [
+            "highest quality",
+            "chất lượng cao nhất"
+          ],
+          [
+            "25 years in operation",
+            "25 năm hoạt động"
+          ],
+          [
+            "name recognition",
+            "mức độ nhận diện tên thương hiệu"
+          ],
+          [
+            "put aside",
+            "bị bỏ sang một bên; bị lờ đi"
+          ],
+          [
+            "misplaced",
+            "bị để thất lạc"
+          ],
+          [
+            "longer lasting",
+            "bền lâu hơn"
+          ],
+          [
+            "customer service representative",
+            "đại diện dịch vụ khách hàng"
+          ]
+        ]
+      },
+      {
+        "title": "168-171 - Clarrell Estate Web Page",
+        "rows": [
+          [
+            "premier centre for the arts",
+            "trung tâm nghệ thuật hàng đầu"
+          ],
+          [
+            "exquisite grounds",
+            "khuôn viên tinh tế"
+          ],
+          [
+            "hilly terrain",
+            "địa hình đồi núi"
+          ],
+          [
+            "lush English gardens",
+            "những khu vườn Anh xanh tốt"
+          ],
+          [
+            "impressive manor house",
+            "dinh thự ấn tượng"
+          ],
+          [
+            "noted architect",
+            "kiến trúc sư nổi tiếng"
+          ],
+          [
+            "transform the estate into an arts centre",
+            "biến khu estate thành trung tâm nghệ thuật"
+          ],
+          [
+            "highlighting the art collection",
+            "trưng bày nổi bật bộ sưu tập nghệ thuật"
+          ],
+          [
+            "multiuse complex",
+            "khu phức hợp đa năng"
+          ],
+          [
+            "complete with art studios and a theatre",
+            "có đầy đủ xưởng nghệ thuật và nhà hát"
+          ],
+          [
+            "free of charge",
+            "miễn phí"
+          ],
+          [
+            "public lectures",
+            "các buổi diễn thuyết công cộng"
+          ],
+          [
+            "musical performances",
+            "các buổi biểu diễn âm nhạc"
+          ],
+          [
+            "curated works",
+            "các tác phẩm được tuyển chọn"
+          ],
+          [
+            "admission fees",
+            "phí vào cửa"
+          ],
+          [
+            "members-only special events",
+            "sự kiện đặc biệt chỉ dành cho hội viên"
+          ],
+          [
+            "reserve the gardens for private events",
+            "đặt khu vườn cho sự kiện riêng"
+          ],
+          [
+            "foundation membership",
+            "tư cách hội viên của quỹ"
+          ]
+        ]
+      },
+      {
+        "title": "172-175 - Palliz Foundation Finance Director Job Ad",
+        "rows": [
+          [
+            "finance director",
+            "giám đốc tài chính"
+          ],
+          [
+            "senior leadership team",
+            "đội ngũ lãnh đạo cấp cao"
+          ],
+          [
+            "supervisory position",
+            "vị trí giám sát"
+          ],
+          [
+            "reporting directly to",
+            "báo cáo trực tiếp cho"
+          ],
+          [
+            "foundation president",
+            "chủ tịch quỹ"
+          ],
+          [
+            "payroll manager",
+            "quản lý bảng lương"
+          ],
+          [
+            "accounting director",
+            "giám đốc kế toán"
+          ],
+          [
+            "responsible for the oversight and maintenance",
+            "chịu trách nhiệm giám sát và duy trì"
+          ],
+          [
+            "accounting and purchasing systems",
+            "hệ thống kế toán và mua hàng"
+          ],
+          [
+            "internal control procedures",
+            "quy trình kiểm soát nội bộ"
+          ],
+          [
+            "ensures compliance with legal obligations",
+            "đảm bảo tuân thủ các nghĩa vụ pháp lý"
+          ],
+          [
+            "disbursement",
+            "việc giải ngân; chi trả"
+          ],
+          [
+            "investment and management of company funds",
+            "đầu tư và quản lý quỹ công ty"
+          ],
+          [
+            "financial policies and practices",
+            "chính sách và thông lệ tài chính"
+          ],
+          [
+            "budget preparation",
+            "lập ngân sách"
+          ],
+          [
+            "board of directors",
+            "hội đồng quản trị"
+          ],
+          [
+            "preference will be given to",
+            "sẽ ưu tiên cho"
+          ],
+          [
+            "external candidates",
+            "ứng viên bên ngoài"
+          ],
+          [
+            "submit a résumé",
+            "nộp sơ yếu lý lịch"
+          ],
+          [
+            "human resources department",
+            "phòng nhân sự"
+          ]
+        ]
+      },
+      {
+        "title": "176-180 - Tucson Adult School Refund E-mails",
+        "rows": [
+          [
+            "enrolled in the painting class",
+            "đã ghi danh vào lớp vẽ"
+          ],
+          [
+            "attend for the first week",
+            "tham dự trong tuần đầu tiên"
+          ],
+          [
+            "another commitment came up",
+            "phát sinh một cam kết khác"
+          ],
+          [
+            "drop the class",
+            "bỏ lớp; thôi học lớp đó"
+          ],
+          [
+            "requested a refund",
+            "đã yêu cầu hoàn tiền"
+          ],
+          [
+            "course tuition",
+            "học phí khóa học"
+          ],
+          [
+            "refund request",
+            "yêu cầu hoàn tiền"
+          ],
+          [
+            "handle the scheduling",
+            "phụ trách việc xếp lịch"
+          ],
+          [
+            "ordering supplies",
+            "đặt mua vật tư"
+          ],
+          [
+            "refund policy",
+            "chính sách hoàn tiền"
+          ],
+          [
+            "granted",
+            "được chấp thuận"
+          ],
+          [
+            "documented health reason",
+            "lý do sức khỏe có giấy tờ chứng minh"
+          ],
+          [
+            "based on the number of classes completed",
+            "dựa trên số buổi học đã hoàn thành"
+          ],
+          [
+            "second semester class",
+            "lớp học học kỳ hai"
+          ],
+          [
+            "suggestion",
+            "đề xuất"
+          ],
+          [
+            "adult education teacher",
+            "giáo viên giáo dục người lớn"
+          ],
+          [
+            "tuition refund",
+            "hoàn học phí"
+          ]
+        ]
+      },
+      {
+        "title": "181-185 - Cresson's Bakery Article And Letter",
+        "rows": [
+          [
+            "opening soon",
+            "sắp khai trương"
+          ],
+          [
+            "national chain",
+            "chuỗi cửa hàng toàn quốc"
+          ],
+          [
+            "within the city limits",
+            "trong phạm vi thành phố"
+          ],
+          [
+            "vicinity",
+            "khu vực lân cận"
+          ],
+          [
+            "university campus",
+            "khuôn viên trường đại học"
+          ],
+          [
+            "signature coffee and baked goods",
+            "cà phê và bánh nướng đặc trưng"
+          ],
+          [
+            "takeout and drive-through service only",
+            "chỉ phục vụ mang đi và lái xe qua mua"
+          ],
+          [
+            "vacant lot",
+            "lô đất trống"
+          ],
+          [
+            "approval for the project",
+            "sự chấp thuận cho dự án"
+          ],
+          [
+            "public hearing",
+            "buổi điều trần công khai"
+          ],
+          [
+            "voiced mixed opinions",
+            "bày tỏ ý kiến trái chiều"
+          ],
+          [
+            "traffic congestion",
+            "tình trạng tắc nghẽn giao thông"
+          ],
+          [
+            "as evidence",
+            "làm bằng chứng"
+          ],
+          [
+            "slated to welcome its first customers",
+            "dự kiến đón những khách hàng đầu tiên"
+          ],
+          [
+            "coverage",
+            "việc đưa tin"
+          ],
+          [
+            "inaccurate information",
+            "thông tin không chính xác"
+          ],
+          [
+            "captured images",
+            "ghi lại hình ảnh"
+          ],
+          [
+            "Historic Preservation Committee",
+            "Ủy ban Bảo tồn Lịch sử"
+          ],
+          [
+            "primarily concerned about",
+            "chủ yếu quan tâm đến"
+          ],
+          [
+            "architecture",
+            "kiến trúc"
+          ],
+          [
+            "initial building design",
+            "thiết kế ban đầu của tòa nhà"
+          ],
+          [
+            "contemporary",
+            "hiện đại; đương đại"
+          ],
+          [
+            "modify the exterior",
+            "chỉnh sửa phần bên ngoài"
+          ],
+          [
+            "blends in better with",
+            "hòa hợp hơn với"
+          ],
+          [
+            "older structures surrounding it",
+            "các công trình cũ xung quanh"
+          ],
+          [
+            "patronize",
+            "ghé mua hàng; sử dụng dịch vụ"
+          ]
+        ]
+      },
+      {
+        "title": "186-190 - Raxconnect Letter Article And Road Closure Notice",
+        "rows": [
+          [
+            "temporary road closure",
+            "đóng đường tạm thời"
+          ],
+          [
+            "expanding its services",
+            "mở rộng dịch vụ"
+          ],
+          [
+            "fibre-optic cable lines",
+            "đường cáp quang"
+          ],
+          [
+            "faster and more reliable service",
+            "dịch vụ nhanh hơn và đáng tin cậy hơn"
+          ],
+          [
+            "aboveground wiring",
+            "dây điện/cáp nổi trên mặt đất"
+          ],
+          [
+            "Internet connection devices",
+            "thiết bị kết nối Internet"
+          ],
+          [
+            "throughout the city",
+            "khắp thành phố"
+          ],
+          [
+            "phase of construction work",
+            "giai đoạn công trình xây dựng"
+          ],
+          [
+            "took longer than expected",
+            "mất nhiều thời gian hơn dự kiến"
+          ],
+          [
+            "expedite",
+            "đẩy nhanh tiến độ"
+          ],
+          [
+            "get back on schedule",
+            "trở lại đúng tiến độ"
+          ],
+          [
+            "connection hub",
+            "trạm/hộp kết nối"
+          ],
+          [
+            "central location",
+            "vị trí trung tâm"
+          ],
+          [
+            "optimal connection point",
+            "điểm kết nối tối ưu"
+          ],
+          [
+            "proceed",
+            "tiến hành"
+          ],
+          [
+            "utilities adviser",
+            "cố vấn tiện ích công cộng"
+          ],
+          [
+            "unexpected delays",
+            "sự chậm trễ ngoài dự kiến"
+          ],
+          [
+            "identified key locations",
+            "xác định các vị trí then chốt"
+          ],
+          [
+            "reaching out to residents and homeowners",
+            "liên hệ với cư dân và chủ nhà"
+          ],
+          [
+            "invested",
+            "đã đầu tư"
+          ],
+          [
+            "expand its network",
+            "mở rộng mạng lưới"
+          ],
+          [
+            "local officials",
+            "quan chức địa phương"
+          ],
+          [
+            "neighbourhoods",
+            "các khu dân cư"
+          ],
+          [
+            "automobile access",
+            "quyền/lối ra vào bằng ô tô"
+          ]
+        ]
+      },
+      {
+        "title": "191-195 - Albert And Annie's Press Release E-mail And Review",
+        "rows": [
+          [
+            "press release",
+            "thông cáo báo chí"
+          ],
+          [
+            "leading maker",
+            "nhà sản xuất hàng đầu"
+          ],
+          [
+            "gourmet frozen desserts",
+            "món tráng miệng đông lạnh cao cấp"
+          ],
+          [
+            "unveiled several new treats",
+            "ra mắt một số món mới"
+          ],
+          [
+            "chocolate crumb swirl",
+            "vệt xoáy vụn sô-cô-la"
+          ],
+          [
+            "sweet biscuit infusions",
+            "phần hòa quyện bánh quy ngọt"
+          ],
+          [
+            "raspberry sorbet",
+            "kem sorbet mâm xôi"
+          ],
+          [
+            "featuring bits of real fruit",
+            "có các miếng trái cây thật"
+          ],
+          [
+            "founded",
+            "được thành lập"
+          ],
+          [
+            "president and CEO, respectively",
+            "lần lượt là chủ tịch và giám đốc điều hành"
+          ],
+          [
+            "South African division",
+            "chi nhánh/bộ phận Nam Phi"
+          ],
+          [
+            "retailers",
+            "nhà bán lẻ"
+          ],
+          [
+            "get access to",
+            "được tiếp cận; có thể nhập bán"
+          ],
+          [
+            "news site for food lovers",
+            "trang tin dành cho người yêu ẩm thực"
+          ],
+          [
+            "interview request",
+            "yêu cầu phỏng vấn"
+          ],
+          [
+            "company's founders",
+            "những người sáng lập công ty"
+          ],
+          [
+            "eager to know what to expect",
+            "háo hức muốn biết sẽ có gì"
+          ],
+          [
+            "promoting itself",
+            "tự quảng bá"
+          ],
+          [
+            "rent booths",
+            "thuê gian hàng"
+          ],
+          [
+            "major event",
+            "sự kiện lớn"
+          ],
+          [
+            "annual Wooden Sailboat Festival",
+            "Lễ hội Thuyền buồm gỗ hằng năm"
+          ],
+          [
+            "sample some sensational ice creams",
+            "nếm thử một số loại kem tuyệt vời"
+          ],
+          [
+            "rolled out to grocery outlets",
+            "được đưa ra bán tại các cửa hàng tạp hóa"
+          ],
+          [
+            "product line expansion",
+            "sự mở rộng dòng sản phẩm"
+          ]
+        ]
+      },
+      {
+        "title": "196-200 - Getting Grants Blog Post And Feedback Forms",
+        "rows": [
+          [
+            "nonprofit sector",
+            "khu vực phi lợi nhuận"
+          ],
+          [
+            "grant writing",
+            "viết hồ sơ xin tài trợ"
+          ],
+          [
+            "financial aid",
+            "hỗ trợ tài chính"
+          ],
+          [
+            "government agencies",
+            "cơ quan chính phủ"
+          ],
+          [
+            "corporations",
+            "các tập đoàn"
+          ],
+          [
+            "entities",
+            "các tổ chức/đơn vị"
+          ],
+          [
+            "huge competition",
+            "sự cạnh tranh rất lớn"
+          ],
+          [
+            "no room for mediocrity",
+            "không có chỗ cho sự tầm thường"
+          ],
+          [
+            "improve your grant-writing skills",
+            "cải thiện kỹ năng viết hồ sơ xin tài trợ"
+          ],
+          [
+            "online course",
+            "khóa học trực tuyến"
+          ],
+          [
+            "interactive sessions",
+            "các buổi học tương tác"
+          ],
+          [
+            "basic knowledge",
+            "kiến thức cơ bản"
+          ],
+          [
+            "details and registration",
+            "thông tin chi tiết và đăng ký"
+          ],
+          [
+            "promo code",
+            "mã khuyến mãi"
+          ],
+          [
+            "checkout",
+            "bước thanh toán"
+          ],
+          [
+            "tuition",
+            "học phí"
+          ],
+          [
+            "expires",
+            "hết hạn"
+          ],
+          [
+            "full-price registration",
+            "đăng ký với giá đầy đủ"
+          ],
+          [
+            "participating in",
+            "tham gia vào"
+          ],
+          [
+            "fill out the form",
+            "điền vào biểu mẫu"
+          ],
+          [
+            "relatively short compared to",
+            "tương đối ngắn so với"
+          ],
+          [
+            "decent overview",
+            "cái nhìn tổng quan khá ổn"
+          ],
+          [
+            "resource",
+            "nguồn hỗ trợ; người/tài liệu tham khảo"
+          ],
+          [
+            "hired as a grant writer",
+            "được tuyển làm người viết hồ sơ xin tài trợ"
+          ],
+          [
+            "impression",
+            "ấn tượng; cảm giác"
+          ],
+          [
+            "actual writing process",
+            "quy trình viết thực tế"
+          ],
+          [
+            "wealth of valuable insights",
+            "rất nhiều hiểu biết giá trị"
+          ],
+          [
+            "founder",
+            "người sáng lập"
+          ],
+          [
+            "grant-writing firms",
+            "các công ty viết hồ sơ xin tài trợ"
+          ],
+          [
+            "researching grant opportunities",
+            "nghiên cứu các cơ hội tài trợ"
+          ],
+          [
+            "analyzing samples of successful grant applications",
+            "phân tích mẫu hồ sơ xin tài trợ thành công"
+          ],
+          [
+            "specific writing tips",
+            "mẹo viết cụ thể"
+          ],
+          [
+            "referred us to other resources",
+            "giới thiệu chúng tôi đến các nguồn khác"
+          ],
+          [
+            "course description",
+            "mô tả khóa học"
+          ],
+          [
+            "misleading",
+            "gây hiểu lầm"
+          ]
+        ]
+      }
+    ],
+    "answers": [
+      [
+        "147",
+        "D"
+      ],
+      [
+        "148",
+        "B"
+      ],
+      [
+        "149",
+        "B"
+      ],
+      [
+        "150",
+        "C"
+      ],
+      [
+        "151",
+        "B"
+      ],
+      [
+        "152",
+        "D"
+      ],
+      [
+        "153",
+        "D"
+      ],
+      [
+        "154",
+        "B"
+      ],
+      [
+        "155",
+        "B"
+      ],
+      [
+        "156",
+        "A"
+      ],
+      [
+        "157",
+        "C"
+      ],
+      [
+        "158",
+        "A"
+      ],
+      [
+        "159",
+        "D"
+      ],
+      [
+        "160",
+        "B"
+      ],
+      [
+        "161",
+        "B"
+      ],
+      [
+        "162",
+        "A"
+      ],
+      [
+        "163",
+        "B"
+      ],
+      [
+        "164",
+        "D"
+      ],
+      [
+        "165",
+        "D"
+      ],
+      [
+        "166",
+        "C"
+      ],
+      [
+        "167",
+        "A"
+      ],
+      [
+        "168",
+        "A"
+      ],
+      [
+        "169",
+        "B"
+      ],
+      [
+        "170",
+        "A"
+      ],
+      [
+        "171",
+        "D"
+      ],
+      [
+        "172",
+        "A"
+      ],
+      [
+        "173",
+        "D"
+      ],
+      [
+        "174",
+        "B"
+      ],
+      [
+        "175",
+        "D"
+      ],
+      [
+        "176",
+        "D"
+      ],
+      [
+        "177",
+        "C"
+      ],
+      [
+        "178",
+        "B"
+      ],
+      [
+        "179",
+        "D"
+      ],
+      [
+        "180",
+        "A"
+      ],
+      [
+        "181",
+        "C"
+      ],
+      [
+        "182",
+        "C"
+      ],
+      [
+        "183",
+        "B"
+      ],
+      [
+        "184",
+        "D"
+      ],
+      [
+        "185",
+        "A"
+      ],
+      [
+        "186",
+        "B"
+      ],
+      [
+        "187",
+        "D"
+      ],
+      [
+        "188",
+        "C"
+      ],
+      [
+        "189",
+        "A"
+      ],
+      [
+        "190",
+        "D"
+      ],
+      [
+        "191",
+        "C"
+      ],
+      [
+        "192",
+        "D"
+      ],
+      [
+        "193",
+        "A"
+      ],
+      [
+        "194",
+        "C"
+      ],
+      [
+        "195",
+        "D"
+      ],
+      [
+        "196",
+        "B"
+      ],
+      [
+        "197",
+        "C"
+      ],
+      [
+        "198",
+        "A"
+      ],
+      [
+        "199",
+        "D"
+      ],
+      [
+        "200",
+        "B"
+      ]
+    ],
+    "id": "ets2023-test6",
+    "collection": "ETS 2023",
+    "year": 2023,
+    "testNumber": 6,
+    "part": "Part 7"
+  },
+  "ets2024-test6": {
     "sections": [
       {
         "title": "147-148 - E-mail Rapido Net",
@@ -1338,9 +2754,16 @@
         "200",
         "B"
       ]
-    ]
+    ],
+    "label": "ETS 2024 Test 6",
+    "shortLabel": "24-T6",
+    "id": "ets2024-test6",
+    "collection": "ETS 2024",
+    "year": 2024,
+    "testNumber": 6,
+    "part": "Part 7"
   },
-  "7": {
+  "ets2024-test7": {
     "sections": [
       {
         "title": "147-148 - Notice Selino Apartments",
@@ -2067,9 +3490,16 @@
         "200",
         "C"
       ]
-    ]
+    ],
+    "label": "ETS 2024 Test 7",
+    "shortLabel": "24-T7",
+    "id": "ets2024-test7",
+    "collection": "ETS 2024",
+    "year": 2024,
+    "testNumber": 7,
+    "part": "Part 7"
   },
-  "8": {
+  "ets2024-test8": {
     "sections": [
       {
         "title": "147-148 - Advertisement Zoya’s Basket",
@@ -2844,9 +4274,16 @@
         "200",
         "D"
       ]
-    ]
+    ],
+    "label": "ETS 2024 Test 8",
+    "shortLabel": "24-T8",
+    "id": "ets2024-test8",
+    "collection": "ETS 2024",
+    "year": 2024,
+    "testNumber": 8,
+    "part": "Part 7"
   },
-  "9": {
+  "ets2024-test9": {
     "sections": [
       {
         "title": "147-148 - Carina’s Café Menu",
@@ -3605,9 +5042,16 @@
         "200",
         "A"
       ]
-    ]
+    ],
+    "label": "ETS 2024 Test 9",
+    "shortLabel": "24-T9",
+    "id": "ets2024-test9",
+    "collection": "ETS 2024",
+    "year": 2024,
+    "testNumber": 9,
+    "part": "Part 7"
   },
-  "10": {
+  "ets2024-test10": {
     "sections": [
       {
         "title": "147-148 - Galloway Office Park Sign",
@@ -4410,6 +5854,13 @@
         "200",
         "B"
       ]
-    ]
+    ],
+    "label": "ETS 2024 Test 10",
+    "shortLabel": "24-T10",
+    "id": "ets2024-test10",
+    "collection": "ETS 2024",
+    "year": 2024,
+    "testNumber": 10,
+    "part": "Part 7"
   }
 }
