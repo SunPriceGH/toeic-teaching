@@ -1475,54 +1475,6 @@
           [
             "Internet service provider",
             "nhà cung cấp dịch vụ Internet"
-          ],
-          [
-            "suspicious activity",
-            "hoạt động đáng ngờ"
-          ],
-          [
-            "security setting",
-            "cài đặt bảo mật"
-          ],
-          [
-            "make a change to an account",
-            "thực hiện thay đổi đối với tài khoản"
-          ],
-          [
-            "user account",
-            "tài khoản người dùng"
-          ],
-          [
-            "identity confirmation",
-            "xác nhận danh tính"
-          ],
-          [
-            "take action",
-            "thực hiện hành động"
-          ],
-          [
-            "contact support",
-            "liên hệ bộ phận hỗ trợ"
-          ],
-          [
-            "unauthorized change",
-            "thay đổi không được cho phép"
-          ],
-          [
-            "account holder",
-            "chủ tài khoản"
-          ],
-          [
-            "method of recovery",
-            "phương thức khôi phục"
-          ],
-          [
-            "for security purposes",
-            "vì mục đích bảo mật"
-          ],
-          [
-            "question option",
-            "tùy chọn câu hỏi"
           ]
         ]
       },
@@ -1588,46 +1540,6 @@
           [
             "customer satisfaction survey",
             "khảo sát mức độ hài lòng của khách hàng"
-          ],
-          [
-            "installation appointment",
-            "lịch hẹn lắp đặt"
-          ],
-          [
-            "service technician",
-            "kỹ thuật viên dịch vụ"
-          ],
-          [
-            "arrive within a window",
-            "đến trong một khung giờ"
-          ],
-          [
-            "prepare the area",
-            "chuẩn bị khu vực"
-          ],
-          [
-            "equipment setup",
-            "việc lắp đặt thiết bị"
-          ],
-          [
-            "home visit",
-            "cuộc hẹn đến nhà"
-          ],
-          [
-            "service order",
-            "đơn yêu cầu dịch vụ"
-          ],
-          [
-            "confirm by phone",
-            "xác nhận qua điện thoại"
-          ],
-          [
-            "customer account page",
-            "trang tài khoản khách hàng"
-          ],
-          [
-            "installation instructions",
-            "hướng dẫn lắp đặt"
           ]
         ]
       },
@@ -1689,46 +1601,6 @@
           [
             "all set",
             "đã sẵn sàng"
-          ],
-          [
-            "employment verification",
-            "xác minh việc làm"
-          ],
-          [
-            "proof of income",
-            "bằng chứng thu nhập"
-          ],
-          [
-            "rental application",
-            "hồ sơ thuê nhà"
-          ],
-          [
-            "company document",
-            "tài liệu công ty"
-          ],
-          [
-            "sign a document",
-            "ký tài liệu"
-          ],
-          [
-            "verify information",
-            "xác minh thông tin"
-          ],
-          [
-            "HR form",
-            "biểu mẫu nhân sự"
-          ],
-          [
-            "workplace confirmation",
-            "xác nhận nơi làm việc"
-          ],
-          [
-            "apartment application",
-            "đơn xin thuê căn hộ"
-          ],
-          [
-            "reschedule a meeting",
-            "dời lịch họp"
           ]
         ]
       },
@@ -1806,46 +1678,6 @@
           [
             "virtual",
             "trực tuyến"
-          ],
-          [
-            "entry-level position",
-            "vị trí cấp đầu vào"
-          ],
-          [
-            "career coach",
-            "cố vấn nghề nghiệp"
-          ],
-          [
-            "résumé preparation",
-            "chuẩn bị sơ yếu lý lịch"
-          ],
-          [
-            "networking event",
-            "sự kiện kết nối nghề nghiệp"
-          ],
-          [
-            "potential employer",
-            "nhà tuyển dụng tiềm năng"
-          ],
-          [
-            "distinguish yourself",
-            "làm bản thân khác biệt"
-          ],
-          [
-            "online workshop",
-            "hội thảo trực tuyến"
-          ],
-          [
-            "professional profile",
-            "hồ sơ nghề nghiệp"
-          ],
-          [
-            "employment opportunity",
-            "cơ hội việc làm"
-          ],
-          [
-            "practice interview",
-            "luyện phỏng vấn"
           ]
         ]
       },
@@ -1927,46 +1759,6 @@
           [
             "conserve water and energy",
             "tiết kiệm nước và năng lượng"
-          ],
-          [
-            "housing community",
-            "cộng đồng nhà ở"
-          ],
-          [
-            "town-like atmosphere",
-            "không khí giống thị trấn nhỏ"
-          ],
-          [
-            "environmentally friendly design",
-            "thiết kế thân thiện với môi trường"
-          ],
-          [
-            "community amenity",
-            "tiện ích cộng đồng"
-          ],
-          [
-            "tour a model home",
-            "tham quan nhà mẫu"
-          ],
-          [
-            "planned development",
-            "khu quy hoạch phát triển"
-          ],
-          [
-            "green space",
-            "không gian xanh"
-          ],
-          [
-            "energy-efficient feature",
-            "tính năng tiết kiệm năng lượng"
-          ],
-          [
-            "resident facility",
-            "cơ sở dành cho cư dân"
-          ],
-          [
-            "deserve recognition",
-            "xứng đáng được ghi nhận"
           ]
         ]
       },
@@ -2040,46 +1832,6 @@
           [
             "get back to you",
             "phản hồi lại cho bạn"
-          ],
-          [
-            "construction bid",
-            "hồ sơ dự thầu xây dựng"
-          ],
-          [
-            "project estimate",
-            "ước tính chi phí dự án"
-          ],
-          [
-            "approve a budget",
-            "phê duyệt ngân sách"
-          ],
-          [
-            "vendor selection",
-            "việc chọn nhà cung cấp"
-          ],
-          [
-            "bid proposal",
-            "đề xuất dự thầu"
-          ],
-          [
-            "cost is higher than expected",
-            "chi phí cao hơn dự kiến"
-          ],
-          [
-            "quality of previous work",
-            "chất lượng công trình trước đây"
-          ],
-          [
-            "project director",
-            "giám đốc dự án"
-          ],
-          [
-            "contractor reputation",
-            "danh tiếng của nhà thầu"
-          ],
-          [
-            "final approval",
-            "sự phê duyệt cuối cùng"
           ]
         ]
       },
@@ -3039,54 +2791,6 @@
           [
             "apartment residents",
             "cư dân căn hộ"
-          ],
-          [
-            "apartment complex",
-            "khu căn hộ"
-          ],
-          [
-            "maintenance notice",
-            "thông báo bảo trì"
-          ],
-          [
-            "scheduled work",
-            "công việc đã được lên lịch"
-          ],
-          [
-            "avoid using the stairs",
-            "tránh sử dụng cầu thang"
-          ],
-          [
-            "common area",
-            "khu vực chung"
-          ],
-          [
-            "paint fumes",
-            "mùi sơn"
-          ],
-          [
-            "temporary inconvenience",
-            "sự bất tiện tạm thời"
-          ],
-          [
-            "resident notice",
-            "thông báo cho cư dân"
-          ],
-          [
-            "be advised that",
-            "xin lưu ý rằng"
-          ],
-          [
-            "freshly painted surface",
-            "bề mặt mới sơn"
-          ],
-          [
-            "building management",
-            "ban quản lý tòa nhà"
-          ],
-          [
-            "access may be limited",
-            "lối ra vào có thể bị hạn chế"
           ]
         ]
       },
@@ -3120,54 +2824,6 @@
           [
             "hours of operation",
             "giờ hoạt động"
-          ],
-          [
-            "coupon",
-            "phiếu ưu đãi"
-          ],
-          [
-            "dine-in customers",
-            "khách ăn tại chỗ"
-          ],
-          [
-            "redeem a coupon",
-            "sử dụng phiếu ưu đãi"
-          ],
-          [
-            "special promotion",
-            "chương trình khuyến mãi đặc biệt"
-          ],
-          [
-            "grand reopening",
-            "lễ mở cửa trở lại"
-          ],
-          [
-            "renovated dining area",
-            "khu ăn uống đã được cải tạo"
-          ],
-          [
-            "appetizer selection",
-            "các món khai vị"
-          ],
-          [
-            "not valid with other offers",
-            "không áp dụng cùng ưu đãi khác"
-          ],
-          [
-            "limited-time offer",
-            "ưu đãi có thời hạn"
-          ],
-          [
-            "restaurant location",
-            "địa điểm nhà hàng"
-          ],
-          [
-            "present this coupon",
-            "xuất trình phiếu ưu đãi này"
-          ],
-          [
-            "excluded from the offer",
-            "không nằm trong ưu đãi"
           ]
         ]
       },
@@ -3201,54 +2857,6 @@
           [
             "reserve this other venue",
             "đặt địa điểm khác"
-          ],
-          [
-            "confirm in writing",
-            "xác nhận bằng văn bản"
-          ],
-          [
-            "change of venue",
-            "thay đổi địa điểm"
-          ],
-          [
-            "original location",
-            "địa điểm ban đầu"
-          ],
-          [
-            "alternative venue",
-            "địa điểm thay thế"
-          ],
-          [
-            "facility problem",
-            "sự cố cơ sở vật chất"
-          ],
-          [
-            "power failure",
-            "sự cố mất điện"
-          ],
-          [
-            "event arrangement",
-            "việc sắp xếp sự kiện"
-          ],
-          [
-            "catering delivery",
-            "việc giao đồ ăn phục vụ tiệc"
-          ],
-          [
-            "previous agreement",
-            "thỏa thuận trước đó"
-          ],
-          [
-            "repair work",
-            "công việc sửa chữa"
-          ],
-          [
-            "banquet order",
-            "đơn đặt tiệc"
-          ],
-          [
-            "make an adjustment",
-            "điều chỉnh"
           ]
         ]
       },
@@ -3278,46 +2886,6 @@
           [
             "at no extra charge",
             "không tính thêm phí"
-          ],
-          [
-            "customer order",
-            "đơn hàng của khách"
-          ],
-          [
-            "shipping status",
-            "tình trạng giao hàng"
-          ],
-          [
-            "expedite shipping",
-            "đẩy nhanh giao hàng"
-          ],
-          [
-            "free upgrade",
-            "nâng cấp miễn phí"
-          ],
-          [
-            "inventory availability",
-            "tình trạng hàng có sẵn"
-          ],
-          [
-            "winter apparel",
-            "trang phục mùa đông"
-          ],
-          [
-            "processing delay",
-            "sự chậm trễ xử lý"
-          ],
-          [
-            "tracking information",
-            "thông tin theo dõi đơn hàng"
-          ],
-          [
-            "fulfill an order",
-            "xử lý hoàn tất đơn hàng"
-          ],
-          [
-            "shipping department",
-            "bộ phận giao hàng"
           ]
         ]
       },
@@ -3351,54 +2919,6 @@
           [
             "bank branches",
             "chi nhánh ngân hàng"
-          ],
-          [
-            "verify your details",
-            "xác minh thông tin của bạn"
-          ],
-          [
-            "account profile",
-            "hồ sơ tài khoản"
-          ],
-          [
-            "update contact details",
-            "cập nhật thông tin liên hệ"
-          ],
-          [
-            "secure banking",
-            "ngân hàng an toàn"
-          ],
-          [
-            "online banking access",
-            "quyền truy cập ngân hàng trực tuyến"
-          ],
-          [
-            "take effect",
-            "có hiệu lực"
-          ],
-          [
-            "failure to update",
-            "việc không cập nhật"
-          ],
-          [
-            "temporarily restrict access",
-            "tạm thời hạn chế quyền truy cập"
-          ],
-          [
-            "visit a branch",
-            "đến chi nhánh"
-          ],
-          [
-            "customer information",
-            "thông tin khách hàng"
-          ],
-          [
-            "security measure",
-            "biện pháp bảo mật"
-          ],
-          [
-            "contact preference",
-            "tùy chọn liên hệ"
           ]
         ]
       },
@@ -3432,54 +2952,6 @@
           [
             "delivery fees",
             "phí giao hàng"
-          ],
-          [
-            "woodcrafting",
-            "nghề mộc thủ công"
-          ],
-          [
-            "custom furniture order",
-            "đơn đặt đồ nội thất theo yêu cầu"
-          ],
-          [
-            "craftsmanship",
-            "tay nghề thủ công"
-          ],
-          [
-            "made to order",
-            "được làm theo đơn đặt hàng"
-          ],
-          [
-            "delivery arrangement",
-            "việc sắp xếp giao hàng"
-          ],
-          [
-            "furniture piece",
-            "món đồ nội thất"
-          ],
-          [
-            "production time",
-            "thời gian sản xuất"
-          ],
-          [
-            "woodworker",
-            "thợ mộc"
-          ],
-          [
-            "one-of-a-kind item",
-            "sản phẩm độc nhất"
-          ],
-          [
-            "standard delivery",
-            "giao hàng tiêu chuẩn"
-          ],
-          [
-            "additional delivery charge",
-            "phí giao hàng bổ sung"
-          ],
-          [
-            "client specification",
-            "yêu cầu cụ thể của khách hàng"
           ]
         ]
       },
@@ -3513,54 +2985,6 @@
           [
             "temper the effects",
             "làm giảm tác động"
-          ],
-          [
-            "manufacturing cost",
-            "chi phí sản xuất"
-          ],
-          [
-            "profit margin",
-            "biên lợi nhuận"
-          ],
-          [
-            "supply chain",
-            "chuỗi cung ứng"
-          ],
-          [
-            "price fluctuation",
-            "biến động giá"
-          ],
-          [
-            "commodity market",
-            "thị trường hàng hóa"
-          ],
-          [
-            "cost-control strategy",
-            "chiến lược kiểm soát chi phí"
-          ],
-          [
-            "long-term contract",
-            "hợp đồng dài hạn"
-          ],
-          [
-            "bulk purchasing",
-            "mua số lượng lớn"
-          ],
-          [
-            "financial impact",
-            "tác động tài chính"
-          ],
-          [
-            "production forecast",
-            "dự báo sản xuất"
-          ],
-          [
-            "reduce uncertainty",
-            "giảm sự không chắc chắn"
-          ],
-          [
-            "economic pressure",
-            "áp lực kinh tế"
           ]
         ]
       },
@@ -3594,54 +3018,6 @@
           [
             "register in advance",
             "đăng ký trước"
-          ],
-          [
-            "literary event",
-            "sự kiện văn học"
-          ],
-          [
-            "author appearance",
-            "buổi xuất hiện của tác giả"
-          ],
-          [
-            "science-fiction novel",
-            "tiểu thuyết khoa học viễn tưởng"
-          ],
-          [
-            "book signing",
-            "buổi ký sách"
-          ],
-          [
-            "event registration",
-            "đăng ký sự kiện"
-          ],
-          [
-            "limited seating",
-            "chỗ ngồi có hạn"
-          ],
-          [
-            "research setting",
-            "bối cảnh nghiên cứu"
-          ],
-          [
-            "discussion leader",
-            "người dẫn buổi thảo luận"
-          ],
-          [
-            "event host",
-            "người/đơn vị tổ chức sự kiện"
-          ],
-          [
-            "advance registration",
-            "đăng ký trước"
-          ],
-          [
-            "fictional story",
-            "câu chuyện hư cấu"
-          ],
-          [
-            "scientific equipment",
-            "thiết bị khoa học"
           ]
         ]
       },
@@ -3675,54 +3051,6 @@
           [
             "computer hardware",
             "phần cứng máy tính"
-          ],
-          [
-            "record a presentation",
-            "ghi âm bài thuyết trình"
-          ],
-          [
-            "audio recording device",
-            "thiết bị ghi âm"
-          ],
-          [
-            "troubleshooting guide",
-            "hướng dẫn khắc phục sự cố"
-          ],
-          [
-            "connect to a computer",
-            "kết nối với máy tính"
-          ],
-          [
-            "compatible cable",
-            "dây cáp tương thích"
-          ],
-          [
-            "technical support",
-            "hỗ trợ kỹ thuật"
-          ],
-          [
-            "manual instructions",
-            "hướng dẫn trong sách hướng dẫn"
-          ],
-          [
-            "download a file",
-            "tải xuống tệp"
-          ],
-          [
-            "device accessory",
-            "phụ kiện thiết bị"
-          ],
-          [
-            "recording quality",
-            "chất lượng ghi âm"
-          ],
-          [
-            "USB cord",
-            "dây USB"
-          ],
-          [
-            "product documentation",
-            "tài liệu sản phẩm"
           ]
         ]
       },
@@ -3760,54 +3088,6 @@
           [
             "government photo ID",
             "giấy tờ tùy thân có ảnh do chính phủ cấp"
-          ],
-          [
-            "payment processing",
-            "xử lý thanh toán"
-          ],
-          [
-            "merchant account",
-            "tài khoản người bán"
-          ],
-          [
-            "verify an account",
-            "xác minh tài khoản"
-          ],
-          [
-            "mobile payment device",
-            "thiết bị thanh toán di động"
-          ],
-          [
-            "proof of business",
-            "bằng chứng kinh doanh"
-          ],
-          [
-            "identity document",
-            "giấy tờ định danh"
-          ],
-          [
-            "submit documentation",
-            "nộp tài liệu"
-          ],
-          [
-            "sell at markets",
-            "bán hàng ở chợ/hội chợ"
-          ],
-          [
-            "card transaction",
-            "giao dịch thẻ"
-          ],
-          [
-            "account approval",
-            "phê duyệt tài khoản"
-          ],
-          [
-            "business owner",
-            "chủ doanh nghiệp"
-          ],
-          [
-            "portable device",
-            "thiết bị di động"
           ]
         ]
       },
@@ -3845,54 +3125,6 @@
           [
             "checkout",
             "trả phòng"
-          ],
-          [
-            "hotel policy",
-            "chính sách khách sạn"
-          ],
-          [
-            "room reservation",
-            "đặt phòng"
-          ],
-          [
-            "additional bed",
-            "giường bổ sung"
-          ],
-          [
-            "security deposit",
-            "tiền đặt cọc đảm bảo"
-          ],
-          [
-            "guest request",
-            "yêu cầu của khách"
-          ],
-          [
-            "arrival date",
-            "ngày đến"
-          ],
-          [
-            "hotel amenity",
-            "tiện nghi khách sạn"
-          ],
-          [
-            "child accommodation",
-            "chỗ ở cho trẻ em"
-          ],
-          [
-            "late checkout",
-            "trả phòng trễ"
-          ],
-          [
-            "reservation guarantee",
-            "bảo đảm đặt phòng"
-          ],
-          [
-            "be subject to availability",
-            "tùy thuộc vào tình trạng còn sẵn"
-          ],
-          [
-            "front desk staff",
-            "nhân viên lễ tân"
           ]
         ]
       },
@@ -3926,54 +3158,6 @@
           [
             "budget for art",
             "ngân sách cho tác phẩm nghệ thuật"
-          ],
-          [
-            "art consultancy",
-            "dịch vụ tư vấn nghệ thuật"
-          ],
-          [
-            "office renovation",
-            "cải tạo văn phòng"
-          ],
-          [
-            "interior design",
-            "thiết kế nội thất"
-          ],
-          [
-            "floor plan",
-            "sơ đồ mặt bằng"
-          ],
-          [
-            "art placement",
-            "bố trí tác phẩm nghệ thuật"
-          ],
-          [
-            "conference room",
-            "phòng họp"
-          ],
-          [
-            "reception area",
-            "khu vực tiếp tân"
-          ],
-          [
-            "commission artwork",
-            "đặt làm tác phẩm nghệ thuật"
-          ],
-          [
-            "display art",
-            "trưng bày nghệ thuật"
-          ],
-          [
-            "corporate client",
-            "khách hàng doanh nghiệp"
-          ],
-          [
-            "visual style",
-            "phong cách thị giác"
-          ],
-          [
-            "suitable artwork",
-            "tác phẩm phù hợp"
           ]
         ]
       },
@@ -4011,54 +3195,6 @@
           [
             "rating scales",
             "thang đánh giá"
-          ],
-          [
-            "employee feedback",
-            "phản hồi của nhân viên"
-          ],
-          [
-            "workplace policy",
-            "chính sách nơi làm việc"
-          ],
-          [
-            "survey results",
-            "kết quả khảo sát"
-          ],
-          [
-            "company memo",
-            "bản ghi nhớ công ty"
-          ],
-          [
-            "management response",
-            "phản hồi của ban quản lý"
-          ],
-          [
-            "training opportunity",
-            "cơ hội đào tạo"
-          ],
-          [
-            "work schedule flexibility",
-            "sự linh hoạt về lịch làm việc"
-          ],
-          [
-            "environmental initiative",
-            "sáng kiến môi trường"
-          ],
-          [
-            "staff incentive",
-            "khuyến khích nhân viên"
-          ],
-          [
-            "implementation plan",
-            "kế hoạch triển khai"
-          ],
-          [
-            "survey category",
-            "hạng mục khảo sát"
-          ],
-          [
-            "respondents",
-            "người trả lời khảo sát"
           ]
         ]
       },
@@ -4096,54 +3232,6 @@
           [
             "annual eye exam",
             "khám mắt hằng năm"
-          ],
-          [
-            "eye care",
-            "chăm sóc mắt"
-          ],
-          [
-            "licensed optician",
-            "kỹ thuật viên kính mắt có giấy phép"
-          ],
-          [
-            "prescription eyewear",
-            "kính theo toa"
-          ],
-          [
-            "process insurance claims",
-            "xử lý yêu cầu bảo hiểm"
-          ],
-          [
-            "customer consultation",
-            "tư vấn khách hàng"
-          ],
-          [
-            "frame selection",
-            "việc chọn gọng kính"
-          ],
-          [
-            "vision center",
-            "trung tâm thị lực"
-          ],
-          [
-            "professional license",
-            "giấy phép hành nghề"
-          ],
-          [
-            "patient records",
-            "hồ sơ bệnh nhân"
-          ],
-          [
-            "retail eyewear sales",
-            "bán lẻ kính mắt"
-          ],
-          [
-            "eye examination",
-            "khám mắt"
-          ],
-          [
-            "assist customers",
-            "hỗ trợ khách hàng"
           ]
         ]
       },
@@ -4181,54 +3269,6 @@
           [
             "carbonated beverages",
             "đồ uống có ga"
-          ],
-          [
-            "break room service",
-            "dịch vụ cho phòng nghỉ"
-          ],
-          [
-            "snack vending machine",
-            "máy bán đồ ăn nhẹ"
-          ],
-          [
-            "customized food service",
-            "dịch vụ thực phẩm tùy chỉnh"
-          ],
-          [
-            "employee convenience",
-            "sự tiện lợi cho nhân viên"
-          ],
-          [
-            "payment kiosk",
-            "ki-ốt thanh toán"
-          ],
-          [
-            "stock a vending machine",
-            "bổ sung hàng cho máy bán hàng"
-          ],
-          [
-            "healthy snack options",
-            "lựa chọn đồ ăn nhẹ lành mạnh"
-          ],
-          [
-            "office pantry",
-            "khu đồ ăn văn phòng"
-          ],
-          [
-            "beverage selection",
-            "lựa chọn đồ uống"
-          ],
-          [
-            "service proposal",
-            "đề xuất dịch vụ"
-          ],
-          [
-            "workplace refreshment",
-            "đồ uống/đồ ăn nơi làm việc"
-          ],
-          [
-            "install equipment",
-            "lắp đặt thiết bị"
           ]
         ]
       }
@@ -4495,46 +3535,6 @@
           [
             "delivery",
             "việc giao hàng"
-          ],
-          [
-            "membership reward",
-            "phần thưởng thành viên"
-          ],
-          [
-            "eligible purchase",
-            "giao dịch mua đủ điều kiện"
-          ],
-          [
-            "health-food store",
-            "cửa hàng thực phẩm sức khỏe"
-          ],
-          [
-            "online delivery order",
-            "đơn giao hàng trực tuyến"
-          ],
-          [
-            "earn rewards",
-            "tích lũy phần thưởng"
-          ],
-          [
-            "redeem rewards",
-            "đổi phần thưởng"
-          ],
-          [
-            "purchase category",
-            "hạng mục mua hàng"
-          ],
-          [
-            "qualifying amount",
-            "số tiền đủ điều kiện"
-          ],
-          [
-            "fresh produce",
-            "nông sản tươi"
-          ],
-          [
-            "offer applies to",
-            "ưu đãi áp dụng cho"
           ]
         ]
       },
@@ -4572,46 +3572,6 @@
           [
             "hospitality manager",
             "quản lý dịch vụ khách sạn"
-          ],
-          [
-            "host a conference",
-            "tổ chức hội nghị"
-          ],
-          [
-            "seaside location",
-            "địa điểm ven biển"
-          ],
-          [
-            "meeting facility",
-            "cơ sở phòng họp"
-          ],
-          [
-            "event planner",
-            "người lên kế hoạch sự kiện"
-          ],
-          [
-            "corporate event",
-            "sự kiện công ty"
-          ],
-          [
-            "team-building activity",
-            "hoạt động xây dựng đội nhóm"
-          ],
-          [
-            "guest accommodations",
-            "chỗ ở cho khách"
-          ],
-          [
-            "hotel manager",
-            "quản lý khách sạn"
-          ],
-          [
-            "conference package",
-            "gói hội nghị"
-          ],
-          [
-            "ocean view",
-            "tầm nhìn ra biển"
           ]
         ]
       },
@@ -4649,46 +3609,6 @@
           [
             "internal use only",
             "chỉ sử dụng nội bộ"
-          ],
-          [
-            "report data",
-            "dữ liệu báo cáo"
-          ],
-          [
-            "social media performance",
-            "hiệu quả mạng xã hội"
-          ],
-          [
-            "engagement",
-            "mức độ tương tác"
-          ],
-          [
-            "advertising post",
-            "bài đăng quảng cáo"
-          ],
-          [
-            "click-through",
-            "lượt nhấp vào liên kết"
-          ],
-          [
-            "internal report",
-            "báo cáo nội bộ"
-          ],
-          [
-            "compare figures",
-            "so sánh số liệu"
-          ],
-          [
-            "online campaign",
-            "chiến dịch trực tuyến"
-          ],
-          [
-            "interaction rate",
-            "tỷ lệ tương tác"
-          ],
-          [
-            "post frequency",
-            "tần suất đăng bài"
           ]
         ]
       },
@@ -4726,38 +3646,6 @@
           [
             "entire bin",
             "cả một thùng"
-          ],
-          [
-            "jewelry shipment",
-            "lô hàng trang sức"
-          ],
-          [
-            "shipping label",
-            "nhãn vận chuyển"
-          ],
-          [
-            "package an order",
-            "đóng gói đơn hàng"
-          ],
-          [
-            "seal a box",
-            "niêm phong hộp"
-          ],
-          [
-            "order fulfillment",
-            "xử lý đơn hàng"
-          ],
-          [
-            "missing item",
-            "món hàng bị thiếu"
-          ],
-          [
-            "bin of labels",
-            "thùng nhãn"
-          ],
-          [
-            "business card insert",
-            "tấm danh thiếp kèm theo"
           ]
         ]
       },
@@ -4799,46 +3687,6 @@
           [
             "Resident Advisory Board",
             "ban cố vấn cư dân"
-          ],
-          [
-            "tenant meeting",
-            "cuộc họp cư dân"
-          ],
-          [
-            "property improvement",
-            "cải thiện bất động sản"
-          ],
-          [
-            "garden plot",
-            "ô đất làm vườn"
-          ],
-          [
-            "water main",
-            "đường ống nước chính"
-          ],
-          [
-            "utility rate",
-            "mức phí tiện ích"
-          ],
-          [
-            "advisory board",
-            "ban cố vấn"
-          ],
-          [
-            "community update",
-            "cập nhật cộng đồng"
-          ],
-          [
-            "maintenance project",
-            "dự án bảo trì"
-          ],
-          [
-            "resident concern",
-            "mối quan tâm của cư dân"
-          ],
-          [
-            "sign-up period",
-            "thời gian đăng ký"
           ]
         ]
       },
@@ -4880,46 +3728,6 @@
           [
             "unsafe conditions",
             "điều kiện không an toàn"
-          ],
-          [
-            "lab prerequisite",
-            "điều kiện tiên quyết của phòng thí nghiệm"
-          ],
-          [
-            "protective gear",
-            "đồ bảo hộ"
-          ],
-          [
-            "report unsafe conditions",
-            "báo cáo điều kiện không an toàn"
-          ],
-          [
-            "emergency equipment",
-            "thiết bị khẩn cấp"
-          ],
-          [
-            "safety training",
-            "đào tạo an toàn"
-          ],
-          [
-            "chemical handling",
-            "xử lý hóa chất"
-          ],
-          [
-            "laboratory procedure",
-            "quy trình phòng thí nghiệm"
-          ],
-          [
-            "course requirement",
-            "yêu cầu khóa học"
-          ],
-          [
-            "fire safety",
-            "an toàn cháy nổ"
-          ],
-          [
-            "eye protection",
-            "bảo vệ mắt"
           ]
         ]
       },
@@ -4953,46 +3761,6 @@
           [
             "restart your computer",
             "khởi động lại máy tính"
-          ],
-          [
-            "system outage",
-            "sự cố hệ thống"
-          ],
-          [
-            "network drive",
-            "ổ đĩa mạng"
-          ],
-          [
-            "printer issue",
-            "sự cố máy in"
-          ],
-          [
-            "temporary workaround",
-            "giải pháp tạm thời"
-          ],
-          [
-            "restore service",
-            "khôi phục dịch vụ"
-          ],
-          [
-            "IT announcement",
-            "thông báo công nghệ thông tin"
-          ],
-          [
-            "technical difficulty",
-            "khó khăn kỹ thuật"
-          ],
-          [
-            "restart procedure",
-            "quy trình khởi động lại"
-          ],
-          [
-            "e-mail loading problem",
-            "sự cố tải thư điện tử"
-          ],
-          [
-            "system stability",
-            "sự ổn định hệ thống"
           ]
         ]
       },
@@ -5026,46 +3794,6 @@
           [
             "reach out to IT",
             "liên hệ bộ phận IT"
-          ],
-          [
-            "projector problem",
-            "sự cố máy chiếu"
-          ],
-          [
-            "submit a repair ticket",
-            "gửi phiếu yêu cầu sửa chữa"
-          ],
-          [
-            "orientation material",
-            "tài liệu định hướng"
-          ],
-          [
-            "equipment cart",
-            "xe đẩy thiết bị"
-          ],
-          [
-            "meeting room equipment",
-            "thiết bị phòng họp"
-          ],
-          [
-            "follow procedure",
-            "làm theo quy trình"
-          ],
-          [
-            "contact IT",
-            "liên hệ bộ phận IT"
-          ],
-          [
-            "employee training",
-            "đào tạo nhân viên"
-          ],
-          [
-            "technical repair",
-            "sửa chữa kỹ thuật"
-          ],
-          [
-            "presentation equipment",
-            "thiết bị thuyết trình"
           ]
         ]
       },
@@ -5103,46 +3831,6 @@
           [
             "presale reviews",
             "đánh giá trước khi bán"
-          ],
-          [
-            "outdoor gear",
-            "đồ dùng ngoài trời"
-          ],
-          [
-            "retain heat",
-            "giữ nhiệt"
-          ],
-          [
-            "product launch",
-            "ra mắt sản phẩm"
-          ],
-          [
-            "retail markup",
-            "mức chênh lệch bán lẻ"
-          ],
-          [
-            "early review",
-            "đánh giá ban đầu"
-          ],
-          [
-            "cold-weather boot",
-            "ủng thời tiết lạnh"
-          ],
-          [
-            "material technology",
-            "công nghệ vật liệu"
-          ],
-          [
-            "wholesale customer",
-            "khách hàng bán sỉ"
-          ],
-          [
-            "recommended price",
-            "giá đề xuất"
-          ],
-          [
-            "product feature",
-            "tính năng sản phẩm"
           ]
         ]
       },
@@ -5176,46 +3864,6 @@
           [
             "accommodate lecture attendees",
             "phục vụ người tham dự bài giảng"
-          ],
-          [
-            "historical artifact",
-            "hiện vật lịch sử"
-          ],
-          [
-            "museum lecture",
-            "bài giảng bảo tàng"
-          ],
-          [
-            "curator",
-            "người phụ trách bộ sưu tập"
-          ],
-          [
-            "public program",
-            "chương trình công cộng"
-          ],
-          [
-            "attendance capacity",
-            "sức chứa người tham dự"
-          ],
-          [
-            "reserve space",
-            "đặt chỗ"
-          ],
-          [
-            "collection item",
-            "hiện vật trong bộ sưu tập"
-          ],
-          [
-            "lecture attendee",
-            "người tham dự bài giảng"
-          ],
-          [
-            "exhibit object",
-            "đồ vật trưng bày"
-          ],
-          [
-            "historical furniture",
-            "đồ nội thất lịch sử"
           ]
         ]
       },
@@ -5253,46 +3901,6 @@
           [
             "nuggets of wisdom",
             "những ý tưởng giá trị"
-          ],
-          [
-            "book critic",
-            "nhà phê bình sách"
-          ],
-          [
-            "editorial work",
-            "công việc biên tập"
-          ],
-          [
-            "essay collection",
-            "tập hợp bài tiểu luận"
-          ],
-          [
-            "insightful perspective",
-            "góc nhìn sâu sắc"
-          ],
-          [
-            "chapter arrangement",
-            "cách sắp xếp chương"
-          ],
-          [
-            "content organization",
-            "tổ chức nội dung"
-          ],
-          [
-            "reviewer criticism",
-            "lời phê bình của người đánh giá"
-          ],
-          [
-            "valuable lesson",
-            "bài học giá trị"
-          ],
-          [
-            "leadership principle",
-            "nguyên tắc lãnh đạo"
-          ],
-          [
-            "publication review",
-            "bài đánh giá ấn phẩm"
           ]
         ]
       },
@@ -5330,46 +3938,6 @@
           [
             "visitor’s badge",
             "thẻ khách"
-          ],
-          [
-            "room reservation policy",
-            "chính sách đặt phòng"
-          ],
-          [
-            "staff occupancy",
-            "việc nhân viên đang sử dụng phòng"
-          ],
-          [
-            "reservation panel",
-            "bảng đặt phòng điện tử"
-          ],
-          [
-            "clean up after use",
-            "dọn dẹp sau khi sử dụng"
-          ],
-          [
-            "visitor identification",
-            "thẻ nhận diện khách"
-          ],
-          [
-            "cafeteria policy",
-            "chính sách căng tin"
-          ],
-          [
-            "meeting-room use",
-            "việc sử dụng phòng họp"
-          ],
-          [
-            "free meal benefit",
-            "quyền lợi bữa ăn miễn phí"
-          ],
-          [
-            "company visitor",
-            "khách của công ty"
-          ],
-          [
-            "facility rule",
-            "quy định cơ sở"
           ]
         ]
       },
@@ -5407,46 +3975,6 @@
           [
             "permits issued",
             "giấy phép được cấp"
-          ],
-          [
-            "park permit",
-            "giấy phép công viên"
-          ],
-          [
-            "trail access",
-            "quyền vào đường mòn"
-          ],
-          [
-            "protect natural areas",
-            "bảo vệ khu vực tự nhiên"
-          ],
-          [
-            "online registration",
-            "đăng ký trực tuyến"
-          ],
-          [
-            "permit holder",
-            "người có giấy phép"
-          ],
-          [
-            "visitor management",
-            "quản lý khách tham quan"
-          ],
-          [
-            "designated route",
-            "tuyến đường được chỉ định"
-          ],
-          [
-            "walk-in visit",
-            "chuyến đi không đặt trước"
-          ],
-          [
-            "reduce crowding",
-            "giảm đông đúc"
-          ],
-          [
-            "outdoor recreation",
-            "hoạt động giải trí ngoài trời"
           ]
         ]
       },
@@ -5484,46 +4012,6 @@
           [
             "vehicle damage insurance",
             "bảo hiểm hư hại xe"
-          ],
-          [
-            "rental agreement",
-            "hợp đồng thuê"
-          ],
-          [
-            "pickup and return",
-            "nhận và trả xe"
-          ],
-          [
-            "moving equipment",
-            "thiết bị chuyển nhà"
-          ],
-          [
-            "insurance option",
-            "lựa chọn bảo hiểm"
-          ],
-          [
-            "reservation change",
-            "thay đổi đặt chỗ"
-          ],
-          [
-            "support representative",
-            "đại diện hỗ trợ"
-          ],
-          [
-            "damage coverage",
-            "bảo hiểm hư hại"
-          ],
-          [
-            "cart rental",
-            "thuê xe đẩy"
-          ],
-          [
-            "estimated charge",
-            "khoản phí ước tính"
-          ],
-          [
-            "customer reservation",
-            "đặt chỗ của khách hàng"
           ]
         ]
       },
@@ -5565,46 +4053,6 @@
           [
             "onboarding materials",
             "tài liệu hội nhập nhân viên"
-          ],
-          [
-            "new employee orientation",
-            "định hướng nhân viên mới"
-          ],
-          [
-            "employment paperwork",
-            "giấy tờ tuyển dụng"
-          ],
-          [
-            "workstation assignment",
-            "phân công chỗ làm"
-          ],
-          [
-            "company tour",
-            "chuyến tham quan công ty"
-          ],
-          [
-            "supervisor introduction",
-            "giới thiệu người giám sát"
-          ],
-          [
-            "first-day schedule",
-            "lịch ngày làm việc đầu tiên"
-          ],
-          [
-            "access badge",
-            "thẻ ra vào"
-          ],
-          [
-            "cubicle location",
-            "vị trí ô làm việc"
-          ],
-          [
-            "sales department",
-            "phòng kinh doanh"
-          ],
-          [
-            "onboarding process",
-            "quy trình hội nhập nhân viên"
           ]
         ]
       }
@@ -5867,46 +4315,6 @@
           [
             "flatbread",
             "bánh mì dẹt"
-          ],
-          [
-            "daily special",
-            "món đặc biệt trong ngày"
-          ],
-          [
-            "menu item",
-            "món trong thực đơn"
-          ],
-          [
-            "house recipe",
-            "công thức riêng của quán"
-          ],
-          [
-            "bread choice",
-            "lựa chọn bánh mì"
-          ],
-          [
-            "pasta shape",
-            "hình dạng mì ống"
-          ],
-          [
-            "café menu",
-            "thực đơn quán cà phê"
-          ],
-          [
-            "lunch order",
-            "đơn gọi bữa trưa"
-          ],
-          [
-            "ingredient",
-            "nguyên liệu"
-          ],
-          [
-            "signature dish",
-            "món đặc trưng"
-          ],
-          [
-            "served with",
-            "được phục vụ kèm"
           ]
         ]
       },
@@ -5940,46 +4348,6 @@
           [
             "register",
             "đăng ký"
-          ],
-          [
-            "workshop participant",
-            "người tham gia hội thảo"
-          ],
-          [
-            "fitness certification",
-            "chứng chỉ thể hình"
-          ],
-          [
-            "aquatic fitness",
-            "thể dục dưới nước"
-          ],
-          [
-            "pool workout",
-            "bài tập trong hồ bơi"
-          ],
-          [
-            "course registration",
-            "đăng ký khóa học"
-          ],
-          [
-            "professional development",
-            "phát triển chuyên môn"
-          ],
-          [
-            "instructor training",
-            "đào tạo huấn luyện viên"
-          ],
-          [
-            "class technique",
-            "kỹ thuật lớp học"
-          ],
-          [
-            "certified professional",
-            "chuyên gia được chứng nhận"
-          ],
-          [
-            "training fee",
-            "phí đào tạo"
           ]
         ]
       },
@@ -6013,46 +4381,6 @@
           [
             "bustling",
             "nhộn nhịp"
-          ],
-          [
-            "trade shifts",
-            "đổi ca làm"
-          ],
-          [
-            "hotel front desk",
-            "quầy lễ tân khách sạn"
-          ],
-          [
-            "check-in process",
-            "quy trình nhận phòng"
-          ],
-          [
-            "guest charge",
-            "khoản phí của khách"
-          ],
-          [
-            "busy lobby",
-            "sảnh đông đúc"
-          ],
-          [
-            "conference guest",
-            "khách dự hội nghị"
-          ],
-          [
-            "cover a shift",
-            "làm thay một ca"
-          ],
-          [
-            "work schedule",
-            "lịch làm việc"
-          ],
-          [
-            "front-desk clerk",
-            "nhân viên lễ tân"
-          ],
-          [
-            "room account",
-            "tài khoản phòng"
           ]
         ]
       },
@@ -6082,46 +4410,6 @@
           [
             "positive news",
             "tin tốt"
-          ],
-          [
-            "application status",
-            "tình trạng đơn ứng tuyển"
-          ],
-          [
-            "job candidate",
-            "ứng viên xin việc"
-          ],
-          [
-            "follow-up e-mail",
-            "thư theo dõi sau phỏng vấn"
-          ],
-          [
-            "hiring decision",
-            "quyết định tuyển dụng"
-          ],
-          [
-            "position offered",
-            "vị trí được đề nghị"
-          ],
-          [
-            "accept an offer",
-            "chấp nhận lời mời làm việc"
-          ],
-          [
-            "interview process",
-            "quy trình phỏng vấn"
-          ],
-          [
-            "prospective employee",
-            "nhân viên tiềm năng"
-          ],
-          [
-            "managerial role",
-            "vai trò quản lý"
-          ],
-          [
-            "employment offer",
-            "lời mời làm việc"
           ]
         ]
       },
@@ -6159,46 +4447,6 @@
           [
             "price increases",
             "việc tăng giá"
-          ],
-          [
-            "shipping industry",
-            "ngành vận chuyển"
-          ],
-          [
-            "freight cost",
-            "chi phí vận tải"
-          ],
-          [
-            "export overseas",
-            "xuất khẩu ra nước ngoài"
-          ],
-          [
-            "container space",
-            "không gian container"
-          ],
-          [
-            "supply shortage",
-            "tình trạng thiếu nguồn cung"
-          ],
-          [
-            "transport capacity",
-            "năng lực vận chuyển"
-          ],
-          [
-            "overseas market",
-            "thị trường nước ngoài"
-          ],
-          [
-            "shipping rate",
-            "mức phí vận chuyển"
-          ],
-          [
-            "global trade",
-            "thương mại toàn cầu"
-          ],
-          [
-            "cost increase",
-            "sự tăng chi phí"
           ]
         ]
       },
@@ -6236,42 +4484,6 @@
           [
             "transferring to",
             "chuyển sang"
-          ],
-          [
-            "department transfer",
-            "chuyển bộ phận"
-          ],
-          [
-            "staff memo",
-            "thông báo nội bộ cho nhân viên"
-          ],
-          [
-            "clerical support",
-            "hỗ trợ văn phòng"
-          ],
-          [
-            "accounting staff",
-            "nhân sự kế toán"
-          ],
-          [
-            "new assignment",
-            "nhiệm vụ mới"
-          ],
-          [
-            "administrative duties",
-            "nhiệm vụ hành chính"
-          ],
-          [
-            "delivery position",
-            "vị trí giao hàng"
-          ],
-          [
-            "technical support role",
-            "vai trò hỗ trợ kỹ thuật"
-          ],
-          [
-            "part-time employee",
-            "nhân viên bán thời gian"
           ]
         ]
       },
@@ -6309,46 +4521,6 @@
           [
             "technical drawings",
             "bản vẽ kỹ thuật"
-          ],
-          [
-            "machine shop",
-            "xưởng máy"
-          ],
-          [
-            "fabrication work",
-            "công việc chế tạo"
-          ],
-          [
-            "mechanical drawing",
-            "bản vẽ cơ khí"
-          ],
-          [
-            "custom part",
-            "linh kiện đặt làm"
-          ],
-          [
-            "engineer collaboration",
-            "hợp tác với kỹ sư"
-          ],
-          [
-            "operate equipment",
-            "vận hành thiết bị"
-          ],
-          [
-            "precision manufacturing",
-            "sản xuất chính xác"
-          ],
-          [
-            "tool production",
-            "sản xuất công cụ"
-          ],
-          [
-            "technical skill",
-            "kỹ năng kỹ thuật"
-          ],
-          [
-            "plant worker",
-            "công nhân nhà máy"
           ]
         ]
       },
@@ -6386,46 +4558,6 @@
           [
             "successful fair",
             "hội chợ thành công"
-          ],
-          [
-            "event signage",
-            "bảng chỉ dẫn sự kiện"
-          ],
-          [
-            "registration area",
-            "khu vực đăng ký"
-          ],
-          [
-            "fair organizer",
-            "người tổ chức hội chợ"
-          ],
-          [
-            "remove a sign",
-            "tháo bảng hiệu"
-          ],
-          [
-            "entrance gate",
-            "cổng vào"
-          ],
-          [
-            "visitor flow",
-            "luồng khách tham quan"
-          ],
-          [
-            "public event",
-            "sự kiện công cộng"
-          ],
-          [
-            "set up a table",
-            "dựng bàn"
-          ],
-          [
-            "event success",
-            "thành công của sự kiện"
-          ],
-          [
-            "city department",
-            "phòng ban thành phố"
           ]
         ]
       },
@@ -6463,46 +4595,6 @@
           [
             "market share",
             "thị phần"
-          ],
-          [
-            "airline performance",
-            "hiệu suất hãng hàng không"
-          ],
-          [
-            "passenger service",
-            "dịch vụ hành khách"
-          ],
-          [
-            "airfreight",
-            "vận tải hàng không"
-          ],
-          [
-            "on-time rate",
-            "tỷ lệ đúng giờ"
-          ],
-          [
-            "capacity expansion",
-            "mở rộng năng lực"
-          ],
-          [
-            "regional route",
-            "tuyến bay khu vực"
-          ],
-          [
-            "annual data",
-            "dữ liệu hằng năm"
-          ],
-          [
-            "service comparison",
-            "so sánh dịch vụ"
-          ],
-          [
-            "market segment",
-            "phân khúc thị trường"
-          ],
-          [
-            "scheduled service",
-            "dịch vụ theo lịch"
           ]
         ]
       },
@@ -6540,46 +4632,6 @@
           [
             "long-term service agreement",
             "hợp đồng dịch vụ dài hạn"
-          ],
-          [
-            "railway fleet",
-            "đội tàu đường sắt"
-          ],
-          [
-            "electric train",
-            "tàu điện"
-          ],
-          [
-            "fuel replacement",
-            "thay thế nhiên liệu"
-          ],
-          [
-            "passenger comfort",
-            "sự thoải mái của hành khách"
-          ],
-          [
-            "maintenance agreement",
-            "thỏa thuận bảo trì"
-          ],
-          [
-            "modern railcar",
-            "toa tàu hiện đại"
-          ],
-          [
-            "environmental benefit",
-            "lợi ích môi trường"
-          ],
-          [
-            "rail service upgrade",
-            "nâng cấp dịch vụ đường sắt"
-          ],
-          [
-            "spare parts",
-            "phụ tùng thay thế"
-          ],
-          [
-            "long-term supplier",
-            "nhà cung cấp dài hạn"
           ]
         ]
       },
@@ -6617,46 +4669,6 @@
           [
             "serial numbers",
             "số sê-ri"
-          ],
-          [
-            "temporary relocation",
-            "chuyển chỗ tạm thời"
-          ],
-          [
-            "renovation project",
-            "dự án cải tạo"
-          ],
-          [
-            "work remotely",
-            "làm việc từ xa"
-          ],
-          [
-            "access restriction",
-            "hạn chế ra vào"
-          ],
-          [
-            "equipment request",
-            "yêu cầu thiết bị"
-          ],
-          [
-            "mail delivery",
-            "giao thư/tài liệu"
-          ],
-          [
-            "serial number",
-            "số sê-ri"
-          ],
-          [
-            "office headquarters",
-            "trụ sở văn phòng"
-          ],
-          [
-            "off-site workspace",
-            "không gian làm việc bên ngoài"
-          ],
-          [
-            "security access",
-            "quyền ra vào an ninh"
           ]
         ]
       },
@@ -6694,46 +4706,6 @@
           [
             "production processes",
             "quy trình sản xuất"
-          ],
-          [
-            "factory tour",
-            "chuyến tham quan nhà máy"
-          ],
-          [
-            "tailored tour",
-            "chuyến tham quan được điều chỉnh"
-          ],
-          [
-            "investor visit",
-            "chuyến thăm của nhà đầu tư"
-          ],
-          [
-            "safety procedure",
-            "quy trình an toàn"
-          ],
-          [
-            "inspection visit",
-            "chuyến kiểm tra"
-          ],
-          [
-            "historical importance",
-            "tầm quan trọng lịch sử"
-          ],
-          [
-            "production line",
-            "dây chuyền sản xuất"
-          ],
-          [
-            "visitor interest",
-            "mối quan tâm của khách tham quan"
-          ],
-          [
-            "customize an experience",
-            "tùy chỉnh trải nghiệm"
-          ],
-          [
-            "facility guide",
-            "người hướng dẫn cơ sở"
           ]
         ]
       },
@@ -6771,46 +4743,6 @@
           [
             "testimonials",
             "lời chứng thực"
-          ],
-          [
-            "catering company",
-            "công ty cung cấp suất ăn"
-          ],
-          [
-            "film production",
-            "quá trình sản xuất phim"
-          ],
-          [
-            "on-location service",
-            "dịch vụ tại địa điểm quay"
-          ],
-          [
-            "crew meal",
-            "bữa ăn cho đoàn làm phim"
-          ],
-          [
-            "food preference",
-            "sở thích ăn uống"
-          ],
-          [
-            "dietary need",
-            "nhu cầu ăn uống đặc biệt"
-          ],
-          [
-            "service testimonial",
-            "lời chứng thực dịch vụ"
-          ],
-          [
-            "shooting schedule",
-            "lịch quay"
-          ],
-          [
-            "meal setup",
-            "bố trí bữa ăn"
-          ],
-          [
-            "round-the-clock support",
-            "hỗ trợ suốt ngày đêm"
           ]
         ]
       },
@@ -6848,46 +4780,6 @@
           [
             "on-site parking",
             "bãi đỗ xe tại chỗ"
-          ],
-          [
-            "conference accommodation",
-            "chỗ ở khi dự hội nghị"
-          ],
-          [
-            "hotel suite",
-            "phòng suite khách sạn"
-          ],
-          [
-            "walking distance",
-            "khoảng cách đi bộ"
-          ],
-          [
-            "conference attendee",
-            "người dự hội nghị"
-          ],
-          [
-            "parking availability",
-            "tình trạng chỗ đậu xe"
-          ],
-          [
-            "networking event",
-            "sự kiện kết nối"
-          ],
-          [
-            "hotel recommendation",
-            "khuyến nghị khách sạn"
-          ],
-          [
-            "room rate",
-            "giá phòng"
-          ],
-          [
-            "downtown hotel",
-            "khách sạn trung tâm"
-          ],
-          [
-            "first-time attendee",
-            "người tham dự lần đầu"
           ]
         ]
       },
@@ -6929,46 +4821,6 @@
           [
             "secure page",
             "trang bảo mật"
-          ],
-          [
-            "utility account",
-            "tài khoản dịch vụ tiện ích"
-          ],
-          [
-            "meter reading",
-            "chỉ số đồng hồ nước"
-          ],
-          [
-            "monthly billing",
-            "lập hóa đơn hằng tháng"
-          ],
-          [
-            "payment deadline",
-            "hạn thanh toán"
-          ],
-          [
-            "water discoloration",
-            "nước đổi màu"
-          ],
-          [
-            "pipe flushing",
-            "xả rửa đường ống"
-          ],
-          [
-            "online payment page",
-            "trang thanh toán trực tuyến"
-          ],
-          [
-            "customer notice",
-            "thông báo khách hàng"
-          ],
-          [
-            "water sediment",
-            "cặn trong nước"
-          ],
-          [
-            "service interruption",
-            "gián đoạn dịch vụ"
           ]
         ]
       }
@@ -7239,46 +5091,6 @@
           [
             "No Trespassing",
             "cấm xâm nhập"
-          ],
-          [
-            "medical office park",
-            "khu văn phòng y tế"
-          ],
-          [
-            "health-care provider",
-            "nhà cung cấp dịch vụ y tế"
-          ],
-          [
-            "specialist office",
-            "phòng khám chuyên khoa"
-          ],
-          [
-            "property sign",
-            "bảng chỉ dẫn khu nhà"
-          ],
-          [
-            "unauthorized visitors",
-            "khách không được phép"
-          ],
-          [
-            "solicitation",
-            "việc chào hàng"
-          ],
-          [
-            "building directory",
-            "bảng danh mục tòa nhà"
-          ],
-          [
-            "medical tenant",
-            "đơn vị thuê trong lĩnh vực y tế"
-          ],
-          [
-            "restricted access",
-            "lối vào bị hạn chế"
-          ],
-          [
-            "therapy clinic",
-            "phòng khám vật lý trị liệu"
           ]
         ]
       },
@@ -7312,46 +5124,6 @@
           [
             "put up a notice",
             "dán thông báo"
-          ],
-          [
-            "sink repair",
-            "sửa bồn rửa"
-          ],
-          [
-            "maintenance request",
-            "yêu cầu bảo trì"
-          ],
-          [
-            "clogged drain",
-            "ống thoát nước bị tắc"
-          ],
-          [
-            "temporary notice",
-            "thông báo tạm thời"
-          ],
-          [
-            "call a professional",
-            "gọi thợ chuyên nghiệp"
-          ],
-          [
-            "office break room",
-            "phòng nghỉ văn phòng"
-          ],
-          [
-            "maintenance staff",
-            "nhân viên bảo trì"
-          ],
-          [
-            "plumbing issue",
-            "vấn đề đường ống nước"
-          ],
-          [
-            "avoid using the sink",
-            "tránh sử dụng bồn rửa"
-          ],
-          [
-            "workplace problem",
-            "sự cố nơi làm việc"
           ]
         ]
       },
@@ -7389,46 +5161,6 @@
           [
             "dining room",
             "phòng ăn"
-          ],
-          [
-            "menu draft",
-            "bản nháp thực đơn"
-          ],
-          [
-            "restaurant layout",
-            "bố cục nhà hàng"
-          ],
-          [
-            "cover design",
-            "thiết kế bìa"
-          ],
-          [
-            "price update",
-            "cập nhật giá"
-          ],
-          [
-            "additional dishes",
-            "các món ăn bổ sung"
-          ],
-          [
-            "design revision",
-            "sửa đổi thiết kế"
-          ],
-          [
-            "printed menu",
-            "thực đơn in"
-          ],
-          [
-            "restaurant staff",
-            "nhân viên nhà hàng"
-          ],
-          [
-            "final approval",
-            "phê duyệt cuối cùng"
-          ],
-          [
-            "dinner selection",
-            "các món ăn tối"
           ]
         ]
       },
@@ -7470,46 +5202,6 @@
           [
             "retail management",
             "quản lý bán lẻ"
-          ],
-          [
-            "job application",
-            "đơn xin việc"
-          ],
-          [
-            "preferred work location",
-            "địa điểm làm việc mong muốn"
-          ],
-          [
-            "educational background",
-            "nền tảng học vấn"
-          ],
-          [
-            "retail experience",
-            "kinh nghiệm bán lẻ"
-          ],
-          [
-            "management experience",
-            "kinh nghiệm quản lý"
-          ],
-          [
-            "available immediately",
-            "có thể bắt đầu ngay"
-          ],
-          [
-            "personal information",
-            "thông tin cá nhân"
-          ],
-          [
-            "employment record",
-            "lịch sử việc làm"
-          ],
-          [
-            "applicant qualification",
-            "trình độ của ứng viên"
-          ],
-          [
-            "fast-paced setting",
-            "môi trường nhịp độ nhanh"
           ]
         ]
       },
@@ -7547,46 +5239,6 @@
           [
             "value-added tax",
             "thuế giá trị gia tăng"
-          ],
-          [
-            "automotive service",
-            "dịch vụ ô tô"
-          ],
-          [
-            "routine vehicle maintenance",
-            "bảo dưỡng xe định kỳ"
-          ],
-          [
-            "service coupon",
-            "phiếu ưu đãi dịch vụ"
-          ],
-          [
-            "certified technician",
-            "kỹ thuật viên được chứng nhận"
-          ],
-          [
-            "vehicle inspection",
-            "kiểm tra xe"
-          ],
-          [
-            "tax included",
-            "đã bao gồm thuế"
-          ],
-          [
-            "service appointment",
-            "lịch hẹn dịch vụ"
-          ],
-          [
-            "promotional discount",
-            "giảm giá khuyến mãi"
-          ],
-          [
-            "car-care package",
-            "gói chăm sóc xe"
-          ],
-          [
-            "maintenance reminder",
-            "nhắc nhở bảo dưỡng"
           ]
         ]
       },
@@ -7628,46 +5280,6 @@
           [
             "forthcoming book",
             "cuốn sách sắp xuất bản"
-          ],
-          [
-            "public speaker",
-            "diễn giả"
-          ],
-          [
-            "gain recognition",
-            "được công nhận"
-          ],
-          [
-            "consulting business",
-            "doanh nghiệp tư vấn"
-          ],
-          [
-            "clean technology",
-            "công nghệ sạch"
-          ],
-          [
-            "renewable energy",
-            "năng lượng tái tạo"
-          ],
-          [
-            "environmental innovation",
-            "đổi mới môi trường"
-          ],
-          [
-            "business biography",
-            "tiểu sử nghề nghiệp"
-          ],
-          [
-            "future publication",
-            "ấn phẩm sắp xuất bản"
-          ],
-          [
-            "alternative fuels",
-            "nhiên liệu thay thế"
-          ],
-          [
-            "technology consultant",
-            "chuyên gia tư vấn công nghệ"
           ]
         ]
       },
@@ -7709,46 +5321,6 @@
           [
             "competitive wages",
             "mức lương cạnh tranh"
-          ],
-          [
-            "employment opportunity",
-            "cơ hội việc làm"
-          ],
-          [
-            "warehouse position",
-            "vị trí kho vận"
-          ],
-          [
-            "retail distribution",
-            "phân phối bán lẻ"
-          ],
-          [
-            "job applicant",
-            "người ứng tuyển"
-          ],
-          [
-            "recruitment fair",
-            "hội chợ tuyển dụng"
-          ],
-          [
-            "anticipated demand",
-            "nhu cầu dự kiến"
-          ],
-          [
-            "inspection role",
-            "vai trò kiểm tra"
-          ],
-          [
-            "maintenance worker",
-            "nhân viên bảo trì"
-          ],
-          [
-            "starting wage",
-            "mức lương khởi điểm"
-          ],
-          [
-            "local economy",
-            "nền kinh tế địa phương"
           ]
         ]
       },
@@ -7786,46 +5358,6 @@
           [
             "navigation",
             "việc định hướng hàng hải"
-          ],
-          [
-            "historic structure",
-            "công trình lịch sử"
-          ],
-          [
-            "demolition plan",
-            "kế hoạch phá dỡ"
-          ],
-          [
-            "community landmark",
-            "địa danh cộng đồng"
-          ],
-          [
-            "preservation concern",
-            "mối quan tâm bảo tồn"
-          ],
-          [
-            "navigation purpose",
-            "mục đích định hướng hàng hải"
-          ],
-          [
-            "outdated facility",
-            "cơ sở lỗi thời"
-          ],
-          [
-            "redevelopment opportunity",
-            "cơ hội tái phát triển"
-          ],
-          [
-            "emotional reaction",
-            "phản ứng cảm xúc"
-          ],
-          [
-            "historical value",
-            "giá trị lịch sử"
-          ],
-          [
-            "public debate",
-            "cuộc tranh luận công khai"
           ]
         ]
       },
@@ -7867,46 +5399,6 @@
           [
             "installation and labor",
             "lắp đặt và nhân công"
-          ],
-          [
-            "interior decorating",
-            "trang trí nội thất"
-          ],
-          [
-            "custom measurement",
-            "đo theo yêu cầu"
-          ],
-          [
-            "fabric sample",
-            "mẫu vải"
-          ],
-          [
-            "installation service",
-            "dịch vụ lắp đặt"
-          ],
-          [
-            "labor charge",
-            "phí nhân công"
-          ],
-          [
-            "hardware component",
-            "phụ kiện lắp đặt"
-          ],
-          [
-            "window covering",
-            "rèm/đồ che cửa sổ"
-          ],
-          [
-            "style consultation",
-            "tư vấn phong cách"
-          ],
-          [
-            "estimate invoice",
-            "hóa đơn ước tính"
-          ],
-          [
-            "tailored product",
-            "sản phẩm được may/điều chỉnh riêng"
           ]
         ]
       },
@@ -7948,46 +5440,6 @@
           [
             "subscribe",
             "đăng ký sử dụng"
-          ],
-          [
-            "loan refinancing",
-            "tái cấp vốn khoản vay"
-          ],
-          [
-            "connectivity provider",
-            "nhà cung cấp kết nối"
-          ],
-          [
-            "network infrastructure",
-            "hạ tầng mạng"
-          ],
-          [
-            "premium Internet service",
-            "dịch vụ Internet cao cấp"
-          ],
-          [
-            "download speed",
-            "tốc độ tải xuống"
-          ],
-          [
-            "upload speed",
-            "tốc độ tải lên"
-          ],
-          [
-            "business customer",
-            "khách hàng doanh nghiệp"
-          ],
-          [
-            "service reliability",
-            "độ tin cậy dịch vụ"
-          ],
-          [
-            "dedicated staff",
-            "đội ngũ nhân viên chuyên trách"
-          ],
-          [
-            "financial client",
-            "khách hàng tài chính"
           ]
         ]
       },
@@ -8029,42 +5481,6 @@
           [
             "quarterly project update",
             "báo cáo cập nhật dự án hằng quý"
-          ],
-          [
-            "webinar participant",
-            "người tham gia hội thảo trực tuyến"
-          ],
-          [
-            "project scope",
-            "phạm vi dự án"
-          ],
-          [
-            "stakeholder support",
-            "sự ủng hộ của các bên liên quan"
-          ],
-          [
-            "manage a project",
-            "quản lý dự án"
-          ],
-          [
-            "communication strategy",
-            "chiến lược giao tiếp"
-          ],
-          [
-            "quarterly update",
-            "cập nhật hằng quý"
-          ],
-          [
-            "project leader",
-            "người phụ trách dự án"
-          ],
-          [
-            "planning document",
-            "tài liệu lập kế hoạch"
-          ],
-          [
-            "professional training",
-            "đào tạo chuyên môn"
           ]
         ]
       },
@@ -8102,46 +5518,6 @@
           [
             "purchase the items",
             "mua các sản phẩm"
-          ],
-          [
-            "artisan soap",
-            "xà phòng thủ công"
-          ],
-          [
-            "family business",
-            "doanh nghiệp gia đình"
-          ],
-          [
-            "luxury hotel",
-            "khách sạn cao cấp"
-          ],
-          [
-            "skin-care line",
-            "dòng sản phẩm chăm sóc da"
-          ],
-          [
-            "guest amenity",
-            "tiện nghi dành cho khách"
-          ],
-          [
-            "business partnership",
-            "quan hệ đối tác kinh doanh"
-          ],
-          [
-            "marketing strategy",
-            "chiến lược tiếp thị"
-          ],
-          [
-            "product placement",
-            "việc đặt sản phẩm vào khách sạn"
-          ],
-          [
-            "handcrafted product",
-            "sản phẩm thủ công"
-          ],
-          [
-            "retail opportunity",
-            "cơ hội bán lẻ"
           ]
         ]
       },
@@ -8179,46 +5555,6 @@
           [
             "quality product",
             "sản phẩm chất lượng"
-          ],
-          [
-            "ice cream shop",
-            "cửa hàng kem"
-          ],
-          [
-            "sales percentage",
-            "tỷ lệ doanh số"
-          ],
-          [
-            "market performance",
-            "hiệu quả thị trường"
-          ],
-          [
-            "brand popularity",
-            "mức độ phổ biến của thương hiệu"
-          ],
-          [
-            "regional manager",
-            "quản lý khu vực"
-          ],
-          [
-            "media market",
-            "thị trường truyền thông"
-          ],
-          [
-            "consumer demand",
-            "nhu cầu người tiêu dùng"
-          ],
-          [
-            "quality reputation",
-            "danh tiếng chất lượng"
-          ],
-          [
-            "sales comparison",
-            "so sánh doanh số"
-          ],
-          [
-            "local customer base",
-            "cơ sở khách hàng địa phương"
           ]
         ]
       },
@@ -8256,42 +5592,6 @@
           [
             "formal written agreement",
             "thỏa thuận bằng văn bản chính thức"
-          ],
-          [
-            "checkout technology",
-            "công nghệ thanh toán"
-          ],
-          [
-            "installation fee",
-            "phí lắp đặt"
-          ],
-          [
-            "per-unit cost",
-            "chi phí trên mỗi thiết bị"
-          ],
-          [
-            "formal agreement",
-            "thỏa thuận chính thức"
-          ],
-          [
-            "maintenance service",
-            "dịch vụ bảo trì"
-          ],
-          [
-            "mutual agreement",
-            "thỏa thuận chung"
-          ],
-          [
-            "written contract",
-            "hợp đồng bằng văn bản"
-          ],
-          [
-            "service technician",
-            "kỹ thuật viên dịch vụ"
-          ],
-          [
-            "payment equipment",
-            "thiết bị thanh toán"
           ]
         ]
       },
@@ -8333,46 +5633,6 @@
           [
             "supplement to online presence",
             "phần bổ sung cho sự hiện diện trực tuyến"
-          ],
-          [
-            "retail trend",
-            "xu hướng bán lẻ"
-          ],
-          [
-            "in-store experience",
-            "trải nghiệm tại cửa hàng"
-          ],
-          [
-            "customer loyalty",
-            "lòng trung thành của khách hàng"
-          ],
-          [
-            "online presence",
-            "sự hiện diện trực tuyến"
-          ],
-          [
-            "store event",
-            "sự kiện tại cửa hàng"
-          ],
-          [
-            "consumer preference",
-            "sở thích của người tiêu dùng"
-          ],
-          [
-            "physical location",
-            "địa điểm cửa hàng thực tế"
-          ],
-          [
-            "customer interaction",
-            "tương tác với khách hàng"
-          ],
-          [
-            "sales channel",
-            "kênh bán hàng"
-          ],
-          [
-            "complement online sales",
-            "bổ sung cho doanh số trực tuyến"
           ]
         ]
       }
